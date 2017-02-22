@@ -1,4 +1,0 @@
-libraries/haskeline/dist-install/build/cbits/h_wcwidth.o: libraries/haskeline/cbits/h_wcwidth.c
-libraries/haskeline/dist-install/build/cbits/h_wcwidth.p_o: libraries/haskeline/cbits/h_wcwidth.c
-libraries/haskeline/dist-install/build/cbits/h_wcwidth.dyn_o: libraries/haskeline/cbits/h_wcwidth.c
-libraries/haskeline_dist-install_depfile_c_asm_EXISTS = YES

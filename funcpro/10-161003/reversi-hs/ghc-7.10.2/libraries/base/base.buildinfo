@@ -1,4 +1,0 @@
-extra-lib-dirs: 
-extra-libraries:  iconv 
-include-dirs: 
-install-includes: HsBaseConfig.h EventConfig.h

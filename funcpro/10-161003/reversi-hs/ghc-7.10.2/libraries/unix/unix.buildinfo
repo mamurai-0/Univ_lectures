@@ -1,3 +1,0 @@
-buildable: True
-extra-libraries:   
-install-includes: HsUnixConfig.h
