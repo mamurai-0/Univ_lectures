@@ -1,0 +1,3 @@
+#!/bin/sh
+export DYLD_LIBRARY_PATH="libraries/Cabal/Cabal/dist-install/build:libraries/process/dist-install/build:libraries/pretty/dist-install/build:libraries/directory/dist-install/build:libraries/unix/dist-install/build:libraries/time/dist-install/build:libraries/filepath/dist-install/build:libraries/binary/dist-install/build:libraries/containers/dist-install/build:libraries/bytestring/dist-install/build:libraries/deepseq/dist-install/build:libraries/array/dist-install/build:libraries/base/dist-install/build:libraries/integer-gmp2/dist-install/build:libraries/ghc-prim/dist-install/build:rts/dist/build:$DYLD_LIBRARY_PATH"
+exec "utils/ghc-cabal/dist-install/build/tmp/ghc-cabal" ${1+"$@"}

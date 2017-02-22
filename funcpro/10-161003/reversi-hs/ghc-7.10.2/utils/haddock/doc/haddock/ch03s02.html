@@ -1,0 +1,60 @@
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1"><title>3.2. Documenting parts of a declaration</title><link rel="stylesheet" type="text/css" href="fptools.css"><meta name="generator" content="DocBook XSL Stylesheets V1.78.1"><link rel="home" href="index.html" title="Haddock User Guide"><link rel="up" href="markup.html" title="Chapter 3. Documentation and Markup"><link rel="prev" href="markup.html" title="Chapter 3. Documentation and Markup"><link rel="next" href="ch03s03.html" title="3.3. The module description"></head><body bgcolor="white" text="black" link="#0000FF" vlink="#840084" alink="#0000FF"><div class="navheader"><table width="100%" summary="Navigation header"><tr><th colspan="3" align="center">3.2. Documenting parts of a declaration</th></tr><tr><td width="20%" align="left"><a accesskey="p" href="markup.html">Prev</a> </td><th width="60%" align="center">Chapter 3. Documentation and Markup</th><td width="20%" align="right"> <a accesskey="n" href="ch03s03.html">Next</a></td></tr></table><hr></div><div class="section"><div class="titlepage"><div><div><h2 class="title" style="clear: both"><a name="idp47668120287600"></a>3.2. Documenting parts of a declaration</h2></div></div></div><p>In addition to documenting the whole declaration, in some
+      cases we can also document individual parts of the
+      declaration.</p><div class="section"><div class="titlepage"><div><div><h3 class="title"><a name="idp47668120288768"></a>3.2.1. Class methods</h3></div></div></div><p>Class methods are documented in the same way as top
+        level type signatures, by using either the
+        <span class="quote">&#8220;<span class="quote"><code class="literal">-- |</code></span>&#8221;</span> or
+        <span class="quote">&#8220;<span class="quote"><code class="literal">-- ^</code></span>&#8221;</span>
+        annotations:</p><pre class="programlisting">
+class C a where
+   -- | This is the documentation for the 'f' method
+   f :: a -&gt; Int
+   -- | This is the documentation for the 'g' method
+   g :: Int -&gt; a
+</pre></div><div class="section"><div class="titlepage"><div><div><h3 class="title"><a name="idp47668120292352"></a>3.2.2. Constructors and record fields</h3></div></div></div><p>Constructors are documented like so:</p><pre class="programlisting">
+data T a b
+  -- | This is the documentation for the 'C1' constructor
+  = C1 a b
+  -- | This is the documentation for the 'C2' constructor
+  | C2 a b
+</pre><p>or like this:</p><pre class="programlisting">
+data T a b
+  = C1 a b  -- ^ This is the documentation for the 'C1' constructor
+  | C2 a b  -- ^ This is the documentation for the 'C2' constructor
+</pre><p>Record fields are documented using one of these
+        styles:</p><pre class="programlisting">
+data R a b =
+  C { -- | This is the documentation for the 'a' field
+      a :: a,
+      -- | This is the documentation for the 'b' field
+      b :: b
+    }
+
+data R a b =
+  C { a :: a  -- ^ This is the documentation for the 'a' field
+    , b :: b  -- ^ This is the documentation for the 'b' field
+    }
+</pre><p>Alternative layout styles are generally accepted by
+        Haddock - for example doc comments can appear before or after
+        the comma in separated lists such as the list of record fields
+        above.</p><p>In case that more than one constructor exports a field
+        with the same name, the documentation attached to the first
+        occurence of the field will be used, even if a comment is not
+        present.
+        </p><pre class="programlisting">
+data T a = A { someField :: a -- ^ Doc for someField of A
+             }
+         | B { someField :: a -- ^ Doc for someField of B
+             }
+</pre><p>In the above example, all occurences of
+        <code class="literal">someField</code> in the documentation are going to
+        be documented with <code class="literal">Doc for someField of A</code>.
+        Note that Haddock versions 2.14.0 and before would join up
+        documentation of each field and render the result. The reason
+        for this seemingly weird behaviour is the fact that
+        <code class="literal">someField</code> is actually the same (partial)
+        function.</p></div><div class="section"><div class="titlepage"><div><div><h3 class="title"><a name="idp47668120301280"></a>3.2.3. Function arguments</h3></div></div></div><p>Individual arguments to a function may be documented
+        like this:</p><pre class="programlisting">
+f  :: Int      -- ^ The 'Int' argument
+   -&gt; Float    -- ^ The 'Float' argument
+   -&gt; IO ()    -- ^ The return value
+</pre></div></div><div class="navfooter"><hr><table width="100%" summary="Navigation footer"><tr><td width="40%" align="left"><a accesskey="p" href="markup.html">Prev</a> </td><td width="20%" align="center"><a accesskey="u" href="markup.html">Up</a></td><td width="40%" align="right"> <a accesskey="n" href="ch03s03.html">Next</a></td></tr><tr><td width="40%" align="left" valign="top">Chapter 3. Documentation and Markup </td><td width="20%" align="center"><a accesskey="h" href="index.html">Home</a></td><td width="40%" align="right" valign="top"> 3.3. The module description</td></tr></table></div></body></html>

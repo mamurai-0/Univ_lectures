@@ -1,0 +1,36 @@
+libraries/terminfo_dist-boot_VERSION = 0.4.0.1
+libraries/terminfo_dist-boot_PACKAGE_KEY = termi_KvtqTNXWuWjKicEYaZ7qsx
+libraries/terminfo_dist-boot_LIB_NAME = terminfo-0.4.0.1-KvtqTNXWuWjKicEYaZ7qsx
+libraries/terminfo_dist-boot_MODULES = System.Console.Terminfo System.Console.Terminfo.Base System.Console.Terminfo.Cursor System.Console.Terminfo.Color System.Console.Terminfo.Edit System.Console.Terminfo.Effects System.Console.Terminfo.Keys
+libraries/terminfo_dist-boot_HIDDEN_MODULES = 
+libraries/terminfo_dist-boot_SYNOPSIS =Haskell bindings to the terminfo library.
+libraries/terminfo_dist-boot_HS_SRC_DIRS = .
+libraries/terminfo_dist-boot_DEPS = base-4.8.1.0
+libraries/terminfo_dist-boot_DEP_KEYS = base_GDytRqRVSUX7zckgKqJjgw
+libraries/terminfo_dist-boot_DEP_NAMES = base
+libraries/terminfo_dist-boot_TRANSITIVE_DEPS = base-4.8.1.0 integer-gmp-1.0.0.0 ghc-prim-0.4.0.0 rts-1.0
+libraries/terminfo_dist-boot_TRANSITIVE_DEP_KEYS = base_GDytRqRVSUX7zckgKqJjgw integ_2aU3IZNMF9a7mQ0OzsZ0dS ghcpr_8TmvWUcS1U1IKHT0levwg3 rts
+libraries/terminfo_dist-boot_TRANSITIVE_DEP_NAMES = base integer-gmp ghc-prim rts
+libraries/terminfo_dist-boot_INCLUDE_DIRS = 
+libraries/terminfo_dist-boot_INCLUDES = ncurses.h term.h
+libraries/terminfo_dist-boot_INSTALL_INCLUDES = 
+libraries/terminfo_dist-boot_EXTRA_LIBRARIES = ncurses
+libraries/terminfo_dist-boot_EXTRA_LIBDIRS = 
+libraries/terminfo_dist-boot_C_SRCS  = 
+libraries/terminfo_dist-boot_CMM_SRCS  := $(addprefix cbits/,$(notdir $(wildcard libraries/terminfo/cbits/*.cmm)))
+libraries/terminfo_dist-boot_DATA_FILES = 
+libraries/terminfo_dist-boot_HC_OPTS = -Wall -XHaskell2010
+libraries/terminfo_dist-boot_CC_OPTS = 
+libraries/terminfo_dist-boot_CPP_OPTS = 
+libraries/terminfo_dist-boot_LD_OPTS = 
+libraries/terminfo_dist-boot_DEP_INCLUDE_DIRS_SINGLE_QUOTED = '/Library/Frameworks/GHC.framework/Versions/7.10.1.20150612-x86_64/usr/lib/ghc-7.10.1.20150612/base_GDytRqRVSUX7zckgKqJjgw/include' '/Library/Frameworks/GHC.framework/Versions/7.10.1.20150612-x86_64/usr/lib/ghc-7.10.1.20150612/integ_2aU3IZNMF9a7mQ0OzsZ0dS/include' '/Library/Frameworks/GHC.framework/Versions/7.10.1.20150612-x86_64/usr/lib/ghc-7.10.1.20150612/include'
+libraries/terminfo_dist-boot_DEP_CC_OPTS = 
+libraries/terminfo_dist-boot_DEP_LIB_DIRS_SINGLE_QUOTED = '/Library/Frameworks/GHC.framework/Versions/7.10.1.20150612-x86_64/usr/lib/ghc-7.10.1.20150612/base_GDytRqRVSUX7zckgKqJjgw' '/Library/Frameworks/GHC.framework/Versions/7.10.1.20150612-x86_64/usr/lib/ghc-7.10.1.20150612/integ_2aU3IZNMF9a7mQ0OzsZ0dS' '/Library/Frameworks/GHC.framework/Versions/7.10.1.20150612-x86_64/usr/lib/ghc-7.10.1.20150612/ghcpr_8TmvWUcS1U1IKHT0levwg3' '/Library/Frameworks/GHC.framework/Versions/7.10.1.20150612-x86_64/usr/lib/ghc-7.10.1.20150612/rts'
+libraries/terminfo_dist-boot_DEP_LIB_DIRS_SEARCHPATH = /Library/Frameworks/GHC.framework/Versions/7.10.1.20150612-x86_64/usr/lib/ghc-7.10.1.20150612/base_GDytRqRVSUX7zckgKqJjgw:/Library/Frameworks/GHC.framework/Versions/7.10.1.20150612-x86_64/usr/lib/ghc-7.10.1.20150612/integ_2aU3IZNMF9a7mQ0OzsZ0dS:/Library/Frameworks/GHC.framework/Versions/7.10.1.20150612-x86_64/usr/lib/ghc-7.10.1.20150612/ghcpr_8TmvWUcS1U1IKHT0levwg3:/Library/Frameworks/GHC.framework/Versions/7.10.1.20150612-x86_64/usr/lib/ghc-7.10.1.20150612/rts
+libraries/terminfo_dist-boot_DEP_LIB_REL_DIRS = libraries/base/dist-install/build libraries/integer-gmp/dist-install/build libraries/ghc-prim/dist-install/build rts/dist/build
+libraries/terminfo_dist-boot_DEP_LIB_REL_DIRS_SEARCHPATH = libraries/base/dist-install/build:libraries/integer-gmp/dist-install/build:libraries/ghc-prim/dist-install/build:rts/dist/build
+libraries/terminfo_dist-boot_DEP_EXTRA_LIBS = iconv m dl
+libraries/terminfo_dist-boot_DEP_LD_OPTS = 
+libraries/terminfo_dist-boot_BUILD_GHCI_LIB = NO
+
+$(eval $(libraries/terminfo_PACKAGE_MAGIC))

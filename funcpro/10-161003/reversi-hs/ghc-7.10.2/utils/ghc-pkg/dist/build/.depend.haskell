@@ -1,0 +1,44 @@
+# DO NOT DELETE: Beginning of Haskell dependencies
+utils/ghc-pkg/dist/build/Version.o : utils/ghc-pkg/dist/build/Version.hs
+$(eval $(call hi-rule,utils/ghc-pkg/dist/build/Version.hi  : %hi: %o  utils/ghc-pkg/dist/build/Version.hs))
+utils/ghc-pkg/dist/build/Version.o : /Library/Frameworks/GHC.framework/Versions/7.10.1.20150612-x86_64/usr/lib/ghc-7.10.1.20150612/base_GDytRqRVSUX7zckgKqJjgw/Prelude.hi
+utils/ghc-pkg/dist/build/Main.o : utils/ghc-pkg/Main.hs
+$(eval $(call hi-rule,utils/ghc-pkg/dist/build/Main.hi  : %hi: %o  utils/ghc-pkg/Main.hs))
+utils/ghc-pkg/dist/build/Main.o : libraries/terminfo/dist-boot/build/System/Console/Terminfo.hi
+utils/ghc-pkg/dist/build/Main.o : /Library/Frameworks/GHC.framework/Versions/7.10.1.20150612-x86_64/usr/lib/ghc-7.10.1.20150612/unix_A3WgcI5QiHK4PDo4jSYdwQ/System/Posix.hi
+utils/ghc-pkg/dist/build/Main.o : /Library/Frameworks/GHC.framework/Versions/7.10.1.20150612-x86_64/usr/lib/ghc-7.10.1.20150612/bytes_6elQVSg5cWdFrvRnfxTUrH/Data/ByteString/Char8.hi
+utils/ghc-pkg/dist/build/Main.o : /Library/Frameworks/GHC.framework/Versions/7.10.1.20150612-x86_64/usr/lib/ghc-7.10.1.20150612/base_GDytRqRVSUX7zckgKqJjgw/Control/Concurrent.hi
+utils/ghc-pkg/dist/build/Main.o : /Library/Frameworks/GHC.framework/Versions/7.10.1.20150612-x86_64/usr/lib/ghc-7.10.1.20150612/base_GDytRqRVSUX7zckgKqJjgw/Data/List.hi
+utils/ghc-pkg/dist/build/Main.o : /Library/Frameworks/GHC.framework/Versions/7.10.1.20150612-x86_64/usr/lib/ghc-7.10.1.20150612/base_GDytRqRVSUX7zckgKqJjgw/GHC/IO/Exception.hi
+utils/ghc-pkg/dist/build/Main.o : /Library/Frameworks/GHC.framework/Versions/7.10.1.20150612-x86_64/usr/lib/ghc-7.10.1.20150612/base_GDytRqRVSUX7zckgKqJjgw/System/IO/Error.hi
+utils/ghc-pkg/dist/build/Main.o : /Library/Frameworks/GHC.framework/Versions/7.10.1.20150612-x86_64/usr/lib/ghc-7.10.1.20150612/base_GDytRqRVSUX7zckgKqJjgw/System/IO.hi
+utils/ghc-pkg/dist/build/Main.o : /Library/Frameworks/GHC.framework/Versions/7.10.1.20150612-x86_64/usr/lib/ghc-7.10.1.20150612/base_GDytRqRVSUX7zckgKqJjgw/System/Environment.hi
+utils/ghc-pkg/dist/build/Main.o : /Library/Frameworks/GHC.framework/Versions/7.10.1.20150612-x86_64/usr/lib/ghc-7.10.1.20150612/base_GDytRqRVSUX7zckgKqJjgw/System/Exit.hi
+utils/ghc-pkg/dist/build/Main.o : /Library/Frameworks/GHC.framework/Versions/7.10.1.20150612-x86_64/usr/lib/ghc-7.10.1.20150612/direc_KowvXytSqazBcvN7MGpFtg/System/Directory.hi
+utils/ghc-pkg/dist/build/Main.o : /Library/Frameworks/GHC.framework/Versions/7.10.1.20150612-x86_64/usr/lib/ghc-7.10.1.20150612/base_GDytRqRVSUX7zckgKqJjgw/Control/Monad.hi
+utils/ghc-pkg/dist/build/Main.o : /Library/Frameworks/GHC.framework/Versions/7.10.1.20150612-x86_64/usr/lib/ghc-7.10.1.20150612/base_GDytRqRVSUX7zckgKqJjgw/Data/Ord.hi
+utils/ghc-pkg/dist/build/Main.o : /Library/Frameworks/GHC.framework/Versions/7.10.1.20150612-x86_64/usr/lib/ghc-7.10.1.20150612/base_GDytRqRVSUX7zckgKqJjgw/Data/Char.hi
+utils/ghc-pkg/dist/build/Main.o : /Library/Frameworks/GHC.framework/Versions/7.10.1.20150612-x86_64/usr/lib/ghc-7.10.1.20150612/base_GDytRqRVSUX7zckgKqJjgw/Data/Maybe.hi
+utils/ghc-pkg/dist/build/Main.o : /Library/Frameworks/GHC.framework/Versions/7.10.1.20150612-x86_64/usr/lib/ghc-7.10.1.20150612/base_GDytRqRVSUX7zckgKqJjgw/Control/Exception.hi
+utils/ghc-pkg/dist/build/Main.o : /Library/Frameworks/GHC.framework/Versions/7.10.1.20150612-x86_64/usr/lib/ghc-7.10.1.20150612/base_GDytRqRVSUX7zckgKqJjgw/System/Console/GetOpt.hi
+utils/ghc-pkg/dist/build/Main.o : /Library/Frameworks/GHC.framework/Versions/7.10.1.20150612-x86_64/usr/lib/ghc-7.10.1.20150612/base_GDytRqRVSUX7zckgKqJjgw/Prelude.hi
+utils/ghc-pkg/dist/build/Main.o : /Library/Frameworks/GHC.framework/Versions/7.10.1.20150612-x86_64/usr/lib/ghc-7.10.1.20150612/base_GDytRqRVSUX7zckgKqJjgw/Text/Printf.hi
+utils/ghc-pkg/dist/build/Main.o : /Library/Frameworks/GHC.framework/Versions/7.10.1.20150612-x86_64/usr/lib/ghc-7.10.1.20150612/direc_KowvXytSqazBcvN7MGpFtg/System/Directory.hi
+utils/ghc-pkg/dist/build/Main.o : /Library/Frameworks/GHC.framework/Versions/7.10.1.20150612-x86_64/usr/lib/ghc-7.10.1.20150612/proce_FLTz0SLwyG6LJUpZ52HjkU/System/Process.hi
+utils/ghc-pkg/dist/build/Main.o : /Library/Frameworks/GHC.framework/Versions/7.10.1.20150612-x86_64/usr/lib/ghc-7.10.1.20150612/filep_KsGE6pHE5eZHSN90ZVax6A/System/FilePath/Posix.hi
+utils/ghc-pkg/dist/build/Main.o : /Library/Frameworks/GHC.framework/Versions/7.10.1.20150612-x86_64/usr/lib/ghc-7.10.1.20150612/filep_KsGE6pHE5eZHSN90ZVax6A/System/FilePath.hi
+utils/ghc-pkg/dist/build/Main.o : libraries/Cabal/Cabal/dist-boot/build/Distribution/Simple/Utils.hi
+utils/ghc-pkg/dist/build/Main.o : libraries/Cabal/Cabal/dist-boot/build/Distribution/Version.hi
+utils/ghc-pkg/dist/build/Main.o : libraries/Cabal/Cabal/dist-boot/build/Distribution/Text.hi
+utils/ghc-pkg/dist/build/Main.o : libraries/Cabal/Cabal/dist-boot/build/Distribution/Package.hi
+utils/ghc-pkg/dist/build/Main.o : libraries/Cabal/Cabal/dist-boot/build/Distribution/ParseUtils.hi
+utils/ghc-pkg/dist/build/Main.o : libraries/Cabal/Cabal/dist-boot/build/Distribution/Compat/ReadP.hi
+utils/ghc-pkg/dist/build/Main.o : libraries/Cabal/Cabal/dist-boot/build/Distribution/InstalledPackageInfo.hi
+utils/ghc-pkg/dist/build/Main.o : libraries/Cabal/Cabal/dist-boot/build/Distribution/ModuleName.hi
+utils/ghc-pkg/dist/build/Main.o : libraries/Cabal/Cabal/dist-boot/build/Distribution/ModuleName.hi
+utils/ghc-pkg/dist/build/Main.o : /Library/Frameworks/GHC.framework/Versions/7.10.1.20150612-x86_64/usr/lib/ghc-7.10.1.20150612/conta_LKCPrTJwOTOLk4OU37YmeN/Data/Graph.hi
+utils/ghc-pkg/dist/build/Main.o : libraries/Cabal/Cabal/dist-boot/build/Distribution/Simple/PackageIndex.hi
+utils/ghc-pkg/dist/build/Main.o : libraries/bin-package-db/dist-boot/build/GHC/PackageDb.hi
+utils/ghc-pkg/dist/build/Main.o : utils/ghc-pkg/dist/build/Version.hi
+# DO NOT DELETE: End of Haskell dependencies
+utils/ghc-pkg_dist_depfile_haskell_EXISTS = YES

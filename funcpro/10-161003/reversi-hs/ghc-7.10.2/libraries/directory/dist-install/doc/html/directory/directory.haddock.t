@@ -1,0 +1,14 @@
+/Users/mark/Projects/ghc-7.10.2/inplace/lib/bin/haddock -B/Users/mark/Projects/ghc-7.10.2/inplace/lib -l/Users/mark/Projects/ghc-7.10.2/inplace/lib --odir=libraries/directory/dist-install/doc/html/directory --no-tmp-comp-dir --dump-interface=libraries/directory/dist-install/doc/html/directory/directory.haddock --html --hoogle --title=directory-1.2.2.0: Platform-agnostic library for filesystem operations --prologue=libraries/directory/dist-install/haddock-prologue.txt --read-interface=../base-4.8.1.0,../base-4.8.1.0/src/%{MODULE/./-}.html#%{NAME},libraries/base/dist-install/doc/html/base/base.haddock --read-interface=../filepath-1.4.0.0,../filepath-1.4.0.0/src/%{MODULE/./-}.html#%{NAME},libraries/filepath/dist-install/doc/html/filepath/filepath.haddock --read-interface=../time-1.5.0.1,../time-1.5.0.1/src/%{MODULE/./-}.html#%{NAME},libraries/time/dist-install/doc/html/time/time.haddock --read-interface=../unix-2.7.1.0,../unix-2.7.1.0/src/%{MODULE/./-}.html#%{NAME},libraries/unix/dist-install/doc/html/unix/unix.haddock --optghc=-hisuf --optghc=dyn_hi --optghc=-osuf --optghc=dyn_o --optghc=-hcsuf --optghc=dyn_hc --optghc=-fPIC --optghc=-dynamic --optghc=-H32m --optghc=-O --optghc=-this-package-key --optghc=direc_KowvXytSqazBcvN7MGpFtg --optghc=-hide-all-packages --optghc=-i --optghc=-ilibraries/directory/. --optghc=-ilibraries/directory/dist-install/build --optghc=-ilibraries/directory/dist-install/build/autogen --optghc=-Ilibraries/directory/dist-install/build --optghc=-Ilibraries/directory/dist-install/build/autogen --optghc=-Ilibraries/directory/include --optghc=-optP-include --optghc=-optPlibraries/directory/dist-install/build/autogen/cabal_macros.h --optghc=-package-key --optghc=base_GDytRqRVSUX7zckgKqJjgw --optghc=-package-key --optghc=filep_KsGE6pHE5eZHSN90ZVax6A --optghc=-package-key --optghc=time_AXTdBF9VRQoBOqJT6qtmVH --optghc=-package-key --optghc=unix_A3WgcI5QiHK4PDo4jSYdwQ --optghc=-Wall --optghc=-XHaskell2010 --optghc=-O2 --optghc=-no-user-package-db --optghc=-rtsopts --optghc=-odir --optghc=libraries/directory/dist-install/build --optghc=-hidir --optghc=libraries/directory/dist-install/build --optghc=-stubdir --optghc=libraries/directory/dist-install/build --source-module=src/%{MODULE/./-}.html --source-entity=src/%{MODULE/./-}.html#%{NAME} libraries/directory/./System/Directory.hs +RTS -tlibraries/directory/dist-install/doc/html/directory/directory.haddock.t --machine-readable 
+ [("bytes allocated", "452795328")
+ ,("num_GCs", "537")
+ ,("average_bytes_used", "15921837")
+ ,("max_bytes_used", "41524264")
+ ,("num_byte_usage_samples", "6")
+ ,("peak_megabytes_allocated", "82")
+ ,("init_cpu_seconds", "0.000")
+ ,("init_wall_seconds", "0.001")
+ ,("mutator_cpu_seconds", "0.323")
+ ,("mutator_wall_seconds", "0.461")
+ ,("GC_cpu_seconds", "0.540")
+ ,("GC_wall_seconds", "0.583")
+ ]

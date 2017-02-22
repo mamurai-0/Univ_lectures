@@ -1,0 +1,25 @@
+libraries/integer-gmp2/dist-install/build/cbits/wrappers.o: libraries/integer-gmp2/cbits/wrappers.c \
+  includes/HsFFI.h \
+  includes/ghcconfig.h \
+  includes/ghcautoconf.h \
+  includes/ghcplatform.h \
+  includes/stg/Types.h \
+  includes/MachDeps.h \
+  libraries/integer-gmp2/gmp/gmp.h
+libraries/integer-gmp2/dist-install/build/cbits/wrappers.p_o: libraries/integer-gmp2/cbits/wrappers.c \
+  includes/HsFFI.h \
+  includes/ghcconfig.h \
+  includes/ghcautoconf.h \
+  includes/ghcplatform.h \
+  includes/stg/Types.h \
+  includes/MachDeps.h \
+  libraries/integer-gmp2/gmp/gmp.h
+libraries/integer-gmp2/dist-install/build/cbits/wrappers.dyn_o: libraries/integer-gmp2/cbits/wrappers.c \
+  includes/HsFFI.h \
+  includes/ghcconfig.h \
+  includes/ghcautoconf.h \
+  includes/ghcplatform.h \
+  includes/stg/Types.h \
+  includes/MachDeps.h \
+  libraries/integer-gmp2/gmp/gmp.h
+libraries/integer-gmp2_dist-install_depfile_c_asm_EXISTS = YES

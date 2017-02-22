@@ -1,0 +1,92 @@
+# DO NOT DELETE: Beginning of Haskell dependencies
+utils/hsc2hs/dist-install/build/HSCParser.dyn_o : utils/hsc2hs/HSCParser.hs
+$(eval $(call hi-rule,utils/hsc2hs/dist-install/build/HSCParser.dyn_hi  : %hi: %o  utils/hsc2hs/HSCParser.hs))
+utils/hsc2hs/dist-install/build/HSCParser.dyn_o : libraries/base/dist-install/build/Prelude.dyn_hi
+utils/hsc2hs/dist-install/build/HSCParser.dyn_o : libraries/base/dist-install/build/Data/Char.dyn_hi
+utils/hsc2hs/dist-install/build/HSCParser.dyn_o : libraries/base/dist-install/build/Control/Monad.dyn_hi
+utils/hsc2hs/dist-install/build/HSCParser.dyn_o : libraries/base/dist-install/build/Control/Applicative.dyn_hi
+utils/hsc2hs/dist-install/build/Flags.dyn_o : utils/hsc2hs/Flags.hs
+$(eval $(call hi-rule,utils/hsc2hs/dist-install/build/Flags.dyn_hi  : %hi: %o  utils/hsc2hs/Flags.hs))
+utils/hsc2hs/dist-install/build/Flags.dyn_o : libraries/base/dist-install/build/Prelude.dyn_hi
+utils/hsc2hs/dist-install/build/Flags.dyn_o : libraries/base/dist-install/build/System/Console/GetOpt.dyn_hi
+utils/hsc2hs/dist-install/build/C.dyn_o : utils/hsc2hs/C.hs
+$(eval $(call hi-rule,utils/hsc2hs/dist-install/build/C.dyn_hi  : %hi: %o  utils/hsc2hs/C.hs))
+utils/hsc2hs/dist-install/build/C.dyn_o : libraries/base/dist-install/build/Prelude.dyn_hi
+utils/hsc2hs/dist-install/build/C.dyn_o : utils/hsc2hs/dist-install/build/Flags.dyn_hi
+utils/hsc2hs/dist-install/build/C.dyn_o : utils/hsc2hs/dist-install/build/HSCParser.dyn_hi
+utils/hsc2hs/dist-install/build/C.dyn_o : libraries/filepath/dist-install/build/System/FilePath.dyn_hi
+utils/hsc2hs/dist-install/build/C.dyn_o : libraries/base/dist-install/build/Data/List.dyn_hi
+utils/hsc2hs/dist-install/build/C.dyn_o : libraries/base/dist-install/build/Data/Char.dyn_hi
+utils/hsc2hs/dist-install/build/Common.dyn_o : utils/hsc2hs/Common.hs
+$(eval $(call hi-rule,utils/hsc2hs/dist-install/build/Common.dyn_hi  : %hi: %o  utils/hsc2hs/Common.hs))
+utils/hsc2hs/dist-install/build/Common.dyn_o : libraries/base/dist-install/build/Prelude.dyn_hi
+utils/hsc2hs/dist-install/build/Common.dyn_o : libraries/directory/dist-install/build/System/Directory.dyn_hi
+utils/hsc2hs/dist-install/build/Common.dyn_o : libraries/base/dist-install/build/System/Exit.dyn_hi
+utils/hsc2hs/dist-install/build/Common.dyn_o : libraries/process/dist-install/build/System/Process.dyn_hi
+utils/hsc2hs/dist-install/build/Common.dyn_o : libraries/base/dist-install/build/System/IO.dyn_hi
+utils/hsc2hs/dist-install/build/Common.dyn_o : libraries/base/dist-install/build/Control/Monad.dyn_hi
+utils/hsc2hs/dist-install/build/Common.dyn_o : libraries/base/dist-install/build/Control/Exception.dyn_hi
+utils/hsc2hs/dist-install/build/Common.dyn_o : libraries/base/dist-install/build/Control/Exception.dyn_hi
+utils/hsc2hs/dist-install/build/CrossCodegen.dyn_o : utils/hsc2hs/CrossCodegen.hs
+$(eval $(call hi-rule,utils/hsc2hs/dist-install/build/CrossCodegen.dyn_hi  : %hi: %o  utils/hsc2hs/CrossCodegen.hs))
+utils/hsc2hs/dist-install/build/CrossCodegen.dyn_o : utils/hsc2hs/dist-install/build/HSCParser.dyn_hi
+utils/hsc2hs/dist-install/build/CrossCodegen.dyn_o : utils/hsc2hs/dist-install/build/Flags.dyn_hi
+utils/hsc2hs/dist-install/build/CrossCodegen.dyn_o : utils/hsc2hs/dist-install/build/Common.dyn_hi
+utils/hsc2hs/dist-install/build/CrossCodegen.dyn_o : utils/hsc2hs/dist-install/build/C.dyn_hi
+utils/hsc2hs/dist-install/build/CrossCodegen.dyn_o : libraries/process/dist-install/build/System/Process.dyn_hi
+utils/hsc2hs/dist-install/build/CrossCodegen.dyn_o : libraries/base/dist-install/build/System/Exit.dyn_hi
+utils/hsc2hs/dist-install/build/CrossCodegen.dyn_o : libraries/containers/dist-install/build/Data/Sequence.dyn_hi
+utils/hsc2hs/dist-install/build/CrossCodegen.dyn_o : libraries/containers/dist-install/build/Data/Sequence.dyn_hi
+utils/hsc2hs/dist-install/build/CrossCodegen.dyn_o : libraries/base/dist-install/build/Data/Maybe.dyn_hi
+utils/hsc2hs/dist-install/build/CrossCodegen.dyn_o : libraries/base/dist-install/build/Data/Foldable.dyn_hi
+utils/hsc2hs/dist-install/build/CrossCodegen.dyn_o : libraries/base/dist-install/build/Control/Monad.dyn_hi
+utils/hsc2hs/dist-install/build/CrossCodegen.dyn_o : libraries/base/dist-install/build/Control/Exception.dyn_hi
+utils/hsc2hs/dist-install/build/CrossCodegen.dyn_o : libraries/base/dist-install/build/Data/Char.dyn_hi
+utils/hsc2hs/dist-install/build/CrossCodegen.dyn_o : libraries/directory/dist-install/build/System/Directory.dyn_hi
+utils/hsc2hs/dist-install/build/CrossCodegen.dyn_o : libraries/base/dist-install/build/System/IO.dyn_hi
+utils/hsc2hs/dist-install/build/CrossCodegen.dyn_o : libraries/base/dist-install/build/Prelude.dyn_hi
+utils/hsc2hs/dist-install/build/UtilsCodegen.dyn_o : utils/hsc2hs/UtilsCodegen.hs
+$(eval $(call hi-rule,utils/hsc2hs/dist-install/build/UtilsCodegen.dyn_hi  : %hi: %o  utils/hsc2hs/UtilsCodegen.hs))
+utils/hsc2hs/dist-install/build/UtilsCodegen.dyn_o : libraries/base/dist-install/build/Prelude.dyn_hi
+utils/hsc2hs/dist-install/build/UtilsCodegen.dyn_o : utils/hsc2hs/dist-install/build/Flags.dyn_hi
+utils/hsc2hs/dist-install/build/UtilsCodegen.dyn_o : utils/hsc2hs/dist-install/build/Common.dyn_hi
+utils/hsc2hs/dist-install/build/UtilsCodegen.dyn_o : utils/hsc2hs/dist-install/build/C.dyn_hi
+utils/hsc2hs/dist-install/build/UtilsCodegen.dyn_o : libraries/base/dist-install/build/Control/Monad.dyn_hi
+utils/hsc2hs/dist-install/build/DirectCodegen.dyn_o : utils/hsc2hs/DirectCodegen.hs
+$(eval $(call hi-rule,utils/hsc2hs/dist-install/build/DirectCodegen.dyn_hi  : %hi: %o  utils/hsc2hs/DirectCodegen.hs))
+utils/hsc2hs/dist-install/build/DirectCodegen.dyn_o : libraries/base/dist-install/build/Prelude.dyn_hi
+utils/hsc2hs/dist-install/build/DirectCodegen.dyn_o : utils/hsc2hs/dist-install/build/UtilsCodegen.dyn_hi
+utils/hsc2hs/dist-install/build/DirectCodegen.dyn_o : utils/hsc2hs/dist-install/build/HSCParser.dyn_hi
+utils/hsc2hs/dist-install/build/DirectCodegen.dyn_o : utils/hsc2hs/dist-install/build/Flags.dyn_hi
+utils/hsc2hs/dist-install/build/DirectCodegen.dyn_o : utils/hsc2hs/dist-install/build/Common.dyn_hi
+utils/hsc2hs/dist-install/build/DirectCodegen.dyn_o : utils/hsc2hs/dist-install/build/C.dyn_hi
+utils/hsc2hs/dist-install/build/DirectCodegen.dyn_o : libraries/filepath/dist-install/build/System/FilePath.dyn_hi
+utils/hsc2hs/dist-install/build/DirectCodegen.dyn_o : libraries/base/dist-install/build/System/Exit.dyn_hi
+utils/hsc2hs/dist-install/build/DirectCodegen.dyn_o : libraries/base/dist-install/build/Control/Monad.dyn_hi
+utils/hsc2hs/dist-install/build/DirectCodegen.dyn_o : libraries/base/dist-install/build/Data/Char.dyn_hi
+utils/hsc2hs/dist-install/build/Paths_hsc2hs.dyn_o : utils/hsc2hs/dist-install/build/autogen/Paths_hsc2hs.hs
+$(eval $(call hi-rule,utils/hsc2hs/dist-install/build/Paths_hsc2hs.dyn_hi  : %hi: %o  utils/hsc2hs/dist-install/build/autogen/Paths_hsc2hs.hs))
+utils/hsc2hs/dist-install/build/Paths_hsc2hs.dyn_o : libraries/base/dist-install/build/Prelude.dyn_hi
+utils/hsc2hs/dist-install/build/Paths_hsc2hs.dyn_o : libraries/base/dist-install/build/System/Environment.dyn_hi
+utils/hsc2hs/dist-install/build/Paths_hsc2hs.dyn_o : libraries/base/dist-install/build/Data/Version.dyn_hi
+utils/hsc2hs/dist-install/build/Paths_hsc2hs.dyn_o : libraries/base/dist-install/build/Control/Exception.dyn_hi
+utils/hsc2hs/dist-install/build/Main.dyn_o : utils/hsc2hs/Main.hs
+$(eval $(call hi-rule,utils/hsc2hs/dist-install/build/Main.dyn_hi  : %hi: %o  utils/hsc2hs/Main.hs))
+utils/hsc2hs/dist-install/build/Main.dyn_o : libraries/base/dist-install/build/Prelude.dyn_hi
+utils/hsc2hs/dist-install/build/Main.dyn_o : utils/hsc2hs/dist-install/build/HSCParser.dyn_hi
+utils/hsc2hs/dist-install/build/Main.dyn_o : utils/hsc2hs/dist-install/build/Flags.dyn_hi
+utils/hsc2hs/dist-install/build/Main.dyn_o : utils/hsc2hs/dist-install/build/DirectCodegen.dyn_hi
+utils/hsc2hs/dist-install/build/Main.dyn_o : utils/hsc2hs/dist-install/build/CrossCodegen.dyn_hi
+utils/hsc2hs/dist-install/build/Main.dyn_o : utils/hsc2hs/dist-install/build/Common.dyn_hi
+utils/hsc2hs/dist-install/build/Main.dyn_o : utils/hsc2hs/dist-install/build/Paths_hsc2hs.dyn_hi
+utils/hsc2hs/dist-install/build/Main.dyn_o : libraries/base/dist-install/build/Data/Version.dyn_hi
+utils/hsc2hs/dist-install/build/Main.dyn_o : libraries/base/dist-install/build/System/IO.dyn_hi
+utils/hsc2hs/dist-install/build/Main.dyn_o : libraries/filepath/dist-install/build/System/FilePath.dyn_hi
+utils/hsc2hs/dist-install/build/Main.dyn_o : libraries/base/dist-install/build/System/Exit.dyn_hi
+utils/hsc2hs/dist-install/build/Main.dyn_o : libraries/base/dist-install/build/System/Environment.dyn_hi
+utils/hsc2hs/dist-install/build/Main.dyn_o : libraries/directory/dist-install/build/System/Directory.dyn_hi
+utils/hsc2hs/dist-install/build/Main.dyn_o : libraries/base/dist-install/build/System/Console/GetOpt.dyn_hi
+utils/hsc2hs/dist-install/build/Main.dyn_o : libraries/base/dist-install/build/Data/List.dyn_hi
+utils/hsc2hs/dist-install/build/Main.dyn_o : libraries/base/dist-install/build/Control/Monad.dyn_hi
+# DO NOT DELETE: End of Haskell dependencies
+utils/hsc2hs_dist-install_depfile_haskell_EXISTS = YES

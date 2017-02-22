@@ -1,0 +1,36 @@
+libraries/base_dist-install_VERSION = 4.8.1.0
+libraries/base_dist-install_PACKAGE_KEY = base_GDytRqRVSUX7zckgKqJjgw
+libraries/base_dist-install_LIB_NAME = base-4.8.1.0-GDytRqRVSUX7zckgKqJjgw
+libraries/base_dist-install_MODULES = Control.Applicative Control.Arrow Control.Category Control.Concurrent Control.Concurrent.Chan Control.Concurrent.MVar Control.Concurrent.QSem Control.Concurrent.QSemN Control.Exception Control.Exception.Base Control.Monad Control.Monad.Fix Control.Monad.Instances Control.Monad.ST Control.Monad.ST.Lazy Control.Monad.ST.Lazy.Safe Control.Monad.ST.Lazy.Unsafe Control.Monad.ST.Safe Control.Monad.ST.Strict Control.Monad.ST.Unsafe Control.Monad.Zip Data.Bifunctor Data.Bits Data.Bool Data.Char Data.Coerce Data.Complex Data.Data Data.Dynamic Data.Either Data.Eq Data.Fixed Data.Foldable Data.Function Data.Functor Data.Functor.Identity Data.IORef Data.Int Data.Ix Data.List Data.Maybe Data.Monoid Data.Ord Data.Proxy Data.Ratio Data.STRef Data.STRef.Lazy Data.STRef.Strict Data.String Data.Traversable Data.Tuple Data.Type.Bool Data.Type.Coercion Data.Type.Equality Data.Typeable Data.Typeable.Internal Data.Unique Data.Version Data.Void Data.Word Debug.Trace Foreign Foreign.C Foreign.C.Error Foreign.C.String Foreign.C.Types Foreign.Concurrent Foreign.ForeignPtr Foreign.ForeignPtr.Safe Foreign.ForeignPtr.Unsafe Foreign.Marshal Foreign.Marshal.Alloc Foreign.Marshal.Array Foreign.Marshal.Error Foreign.Marshal.Pool Foreign.Marshal.Safe Foreign.Marshal.Unsafe Foreign.Marshal.Utils Foreign.Ptr Foreign.Safe Foreign.StablePtr Foreign.Storable GHC.Arr GHC.Base GHC.Char GHC.Conc GHC.Conc.IO GHC.Conc.Signal GHC.Conc.Sync GHC.ConsoleHandler GHC.Constants GHC.Desugar GHC.Enum GHC.Environment GHC.Err GHC.Exception GHC.Exts GHC.Fingerprint GHC.Fingerprint.Type GHC.Float GHC.Float.ConversionUtils GHC.Float.RealFracMethods GHC.Foreign GHC.ForeignPtr GHC.GHCi GHC.Generics GHC.IO GHC.IO.Buffer GHC.IO.BufferedIO GHC.IO.Device GHC.IO.Encoding GHC.IO.Encoding.CodePage GHC.IO.Encoding.Failure GHC.IO.Encoding.Iconv GHC.IO.Encoding.Latin1 GHC.IO.Encoding.Types GHC.IO.Encoding.UTF16 GHC.IO.Encoding.UTF32 GHC.IO.Encoding.UTF8 GHC.IO.Exception GHC.IO.FD GHC.IO.Handle GHC.IO.Handle.FD GHC.IO.Handle.Internals GHC.IO.Handle.Text GHC.IO.Handle.Types GHC.IO.IOMode GHC.IOArray GHC.IORef GHC.IP GHC.Int GHC.List GHC.MVar GHC.Natural GHC.Num GHC.OldList GHC.PArr GHC.Pack GHC.Profiling GHC.Ptr GHC.Read GHC.Real GHC.RTS.Flags GHC.ST GHC.StaticPtr GHC.STRef GHC.Show GHC.SrcLoc GHC.Stable GHC.Stack GHC.Stats GHC.Storable GHC.TopHandler GHC.TypeLits GHC.Unicode GHC.Weak GHC.Word Numeric Numeric.Natural Prelude System.CPUTime System.Console.GetOpt System.Environment System.Exit System.IO System.IO.Error System.IO.Unsafe System.Info System.Mem System.Mem.StableName System.Mem.Weak System.Posix.Internals System.Posix.Types System.Timeout Text.ParserCombinators.ReadP Text.ParserCombinators.ReadPrec Text.Printf Text.Read Text.Read.Lex Text.Show Text.Show.Functions Unsafe.Coerce GHC.Event Control.Monad.ST.Imp Control.Monad.ST.Lazy.Imp Data.OldList Foreign.ForeignPtr.Imp System.Environment.ExecutablePath GHC.Event.Arr GHC.Event.Array GHC.Event.Clock GHC.Event.Control GHC.Event.EPoll GHC.Event.IntTable GHC.Event.Internal GHC.Event.KQueue GHC.Event.Manager GHC.Event.PSQ GHC.Event.Poll GHC.Event.Thread GHC.Event.TimerManager GHC.Event.Unique
+libraries/base_dist-install_HIDDEN_MODULES = Control.Monad.ST.Imp Control.Monad.ST.Lazy.Imp Data.OldList Foreign.ForeignPtr.Imp System.Environment.ExecutablePath GHC.Event.Arr GHC.Event.Array GHC.Event.Clock GHC.Event.Control GHC.Event.EPoll GHC.Event.IntTable GHC.Event.Internal GHC.Event.KQueue GHC.Event.Manager GHC.Event.PSQ GHC.Event.Poll GHC.Event.Thread GHC.Event.TimerManager GHC.Event.Unique
+libraries/base_dist-install_SYNOPSIS =Basic libraries
+libraries/base_dist-install_HS_SRC_DIRS = .
+libraries/base_dist-install_DEPS = rts-1.0 ghc-prim-0.4.0.0 integer-gmp-1.0.0.0
+libraries/base_dist-install_DEP_KEYS = rts ghcpr_8TmvWUcS1U1IKHT0levwg3 integ_2aU3IZNMF9a7mQ0OzsZ0dS
+libraries/base_dist-install_DEP_NAMES = rts ghc-prim integer-gmp
+libraries/base_dist-install_TRANSITIVE_DEPS = integer-gmp-1.0.0.0 ghc-prim-0.4.0.0 rts-1.0
+libraries/base_dist-install_TRANSITIVE_DEP_KEYS = integ_2aU3IZNMF9a7mQ0OzsZ0dS ghcpr_8TmvWUcS1U1IKHT0levwg3 rts
+libraries/base_dist-install_TRANSITIVE_DEP_NAMES = integer-gmp ghc-prim rts
+libraries/base_dist-install_INCLUDE_DIRS = include
+libraries/base_dist-install_INCLUDES = HsBase.h
+libraries/base_dist-install_INSTALL_INCLUDES = HsBaseConfig.h EventConfig.h HsBase.h WCsubst.h consUtils.h Typeable.h
+libraries/base_dist-install_EXTRA_LIBRARIES = iconv
+libraries/base_dist-install_EXTRA_LIBDIRS = 
+libraries/base_dist-install_C_SRCS  = cbits/DarwinUtils.c cbits/PrelIOUtils.c cbits/SetEnv.c cbits/WCsubst.c cbits/Win32Utils.c cbits/consUtils.c cbits/iconv.c cbits/inputReady.c cbits/md5.c cbits/primFloat.c cbits/rts.c cbits/sysconf.c
+libraries/base_dist-install_CMM_SRCS  := $(addprefix cbits/,$(notdir $(wildcard libraries/base/cbits/*.cmm)))
+libraries/base_dist-install_DATA_FILES = 
+libraries/base_dist-install_HC_OPTS = -this-package-key base -XHaskell2010
+libraries/base_dist-install_CC_OPTS = 
+libraries/base_dist-install_CPP_OPTS = -DOPTIMISE_INTEGER_GCD_LCM
+libraries/base_dist-install_LD_OPTS = 
+libraries/base_dist-install_DEP_INCLUDE_DIRS_SINGLE_QUOTED = '/Users/mark/Projects/ghc-7.10.2/libraries/integer-gmp2/include' '/Users/mark/Projects/ghc-7.10.2/rts/dist/build' '/Users/mark/Projects/ghc-7.10.2/includes' '/Users/mark/Projects/ghc-7.10.2/includes/dist-derivedconstants/header'
+libraries/base_dist-install_DEP_CC_OPTS = 
+libraries/base_dist-install_DEP_LIB_DIRS_SINGLE_QUOTED = '/Users/mark/Projects/ghc-7.10.2/libraries/integer-gmp2/dist-install/build' '/Users/mark/Projects/ghc-7.10.2/libraries/ghc-prim/dist-install/build' '/Users/mark/Projects/ghc-7.10.2/rts/dist/build'
+libraries/base_dist-install_DEP_LIB_DIRS_SEARCHPATH = /Users/mark/Projects/ghc-7.10.2/libraries/integer-gmp2/dist-install/build:/Users/mark/Projects/ghc-7.10.2/libraries/ghc-prim/dist-install/build:/Users/mark/Projects/ghc-7.10.2/rts/dist/build
+libraries/base_dist-install_DEP_LIB_REL_DIRS = libraries/integer-gmp2/dist-install/build libraries/ghc-prim/dist-install/build rts/dist/build
+libraries/base_dist-install_DEP_LIB_REL_DIRS_SEARCHPATH = libraries/integer-gmp2/dist-install/build:libraries/ghc-prim/dist-install/build:rts/dist/build
+libraries/base_dist-install_DEP_EXTRA_LIBS = m dl
+libraries/base_dist-install_DEP_LD_OPTS = 
+libraries/base_dist-install_BUILD_GHCI_LIB = NO
+
+$(eval $(libraries/base_PACKAGE_MAGIC))

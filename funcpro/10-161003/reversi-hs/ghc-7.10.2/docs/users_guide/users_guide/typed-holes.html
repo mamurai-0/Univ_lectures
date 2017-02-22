@@ -1,0 +1,95 @@
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1"><title>7.14. Typed Holes</title><link rel="stylesheet" type="text/css" href="fptools.css"><meta name="generator" content="DocBook XSL Stylesheets V1.78.1"><link rel="home" href="index.html" title="The Glorious Glasgow Haskell Compilation System User's Guide, Version 7.10.2"><link rel="up" href="ghc-language-features.html" title="Chapter 7. GHC Language Features"><link rel="prev" href="other-type-extensions.html" title="7.13. Other type system extensions"><link rel="next" href="partial-type-signatures.html" title="7.15. Partial Type Signatures"></head><body bgcolor="white" text="black" link="#0000FF" vlink="#840084" alink="#0000FF"><div class="navheader"><table width="100%" summary="Navigation header"><tr><th colspan="3" align="center">7.14. Typed Holes</th></tr><tr><td width="20%" align="left"><a accesskey="p" href="other-type-extensions.html">Prev</a> </td><th width="60%" align="center">Chapter 7. GHC Language Features</th><td width="20%" align="right"> <a accesskey="n" href="partial-type-signatures.html">Next</a></td></tr></table><hr></div><div class="sect1"><div class="titlepage"><div><div><h2 class="title" style="clear: both"><a name="typed-holes"></a>7.14. Typed Holes</h2></div></div></div><p>
+Typed holes are a feature of GHC that allows special placeholders written with
+a leading underscore (e.g., "<code class="literal">_</code>", "<code class="literal">_foo</code>",
+"<code class="literal">_bar</code>"), to be used as expressions. During compilation these
+holes will generate an error message that describes which type is expected at
+the hole's location, information about the origin of any free type variables,
+and a list of local bindings that might help fill the hole with actual code.
+Typed holes are always enabled in GHC.
+</p><p>
+The goal of typed holes is to help with writing Haskell code rather than to
+change the type system. Typed holes can be used to obtain extra information
+from the type checker, which might otherwise be hard to get. Normally, using
+GHCi, users can inspect the (inferred) type signatures of all top-level
+bindings. However, this method is less convenient with terms that are not
+defined on top-level or inside complex expressions. Holes allow the user to
+check the type of the term they are about to write.
+</p><p>
+To run and test a piece of code containing holes, use the
+<code class="literal">-fdefer-typed-holes</code> flag. This flag defers errors
+produced by typed holes and converts them into warnings. The result is that
+typed hole errors are converted into warnings (controlled by
+<code class="literal">-fwarn-typed-holes</code>). The result is that a hole will behave
+like <code class="literal">undefined</code>, but with the added benefits that it shows a
+warning at compile time and will show another warning message if it gets
+evaluated. This behaviour follows that of the
+<code class="literal">-fdefer-type-errors</code> option, which implies
+<code class="literal">-fdefer-typed-holes</code>. See <a class="xref" href="defer-type-errors.html" title="7.16. Deferring type errors to runtime">Section 7.16, &#8220;Deferring type errors to runtime&#8221;</a>.
+</p><p>
+For example, compiling the following module with GHC:
+</p><pre class="programlisting">
+f :: a -&gt; a
+f x = _
+</pre><p>
+will fail with the following error:
+</p><pre class="programlisting">
+hole.hs:2:7:
+    Found hole `_' with type: a
+    Where: `a' is a rigid type variable bound by
+               the type signature for f :: a -&gt; a at hole.hs:1:6
+    Relevant bindings include
+      f :: a -&gt; a (bound at hole.hs:2:1)
+      x :: a (bound at hole.hs:2:3)
+    In the expression: _
+    In an equation for `f': f x = _
+</pre><p>
+</p><p>
+Multiple typed holes can be used to find common type variables between expressions. For example:
+</p><pre class="programlisting">
+sum :: [Int] -&gt; Int
+sum xs = foldr _f _z xs
+</pre><p>
+Shows:
+</p><pre class="programlisting">
+holes.hs:2:15:
+    Found hole `_f' with type: Int -&gt; Int -&gt; Int
+    In the first argument of `foldr', namely `_'
+    In the expression: foldr _a _b _c
+    In an equation for `sum': sum x = foldr _a _b _c
+
+holes.hs:2:17:
+    Found hole `_z' with type: Int
+    In the second argument of `foldr', namely `_'
+    In the expression: foldr _a _b _c
+    In an equation for `sum': sum x = foldr _a _b _c
+</pre><p>
+</p><p>
+Unbound identifiers with the same name are never unified, even within the same function, but always printed individually.
+For example:
+</p><pre class="programlisting">
+cons = _x : _x
+</pre><p>
+results in the following errors:
+</p><pre class="programlisting">
+unbound.hs:1:8:
+    Found hole '_x' with type: a
+    Where: `a' is a rigid type variable bound by
+               the inferred type of cons :: [a] at unbound.hs:1:1
+    Relevant bindings include cons :: [a] (bound at unbound.hs:1:1)
+    In the first argument of `(:)', namely `_x'
+    In the expression: _x : _x
+    In an equation for `cons': cons = _x : _x
+
+unbound.hs:1:13:
+    Found hole '_x' with type: [a]
+    Arising from: an undeclared identifier `_x' at unbound.hs:1:13-14
+    Where: `a' is a rigid type variable bound by
+               the inferred type of cons :: [a] at unbound.hs:1:1
+    Relevant bindings include cons :: [a] (bound at unbound.hs:1:1)
+    In the second argument of `(:)', namely `_x'
+    In the expression: _x : _x
+    In an equation for `cons': cons = _x : _x
+</pre><p>
+This ensures that an unbound identifier is never reported with a too polymorphic type, like
+<code class="literal">forall a. a</code>, when used multiple times for types that can not be unified.
+</p></div><div class="navfooter"><hr><table width="100%" summary="Navigation footer"><tr><td width="40%" align="left"><a accesskey="p" href="other-type-extensions.html">Prev</a> </td><td width="20%" align="center"><a accesskey="u" href="ghc-language-features.html">Up</a></td><td width="40%" align="right"> <a accesskey="n" href="partial-type-signatures.html">Next</a></td></tr><tr><td width="40%" align="left" valign="top">7.13. Other type system extensions </td><td width="20%" align="center"><a accesskey="h" href="index.html">Home</a></td><td width="40%" align="right" valign="top"> 7.15. Partial Type Signatures</td></tr></table></div></body></html>

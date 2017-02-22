@@ -1,0 +1,36 @@
+libraries/ghc-prim_dist-install_VERSION = 0.4.0.0
+libraries/ghc-prim_dist-install_PACKAGE_KEY = ghcpr_8TmvWUcS1U1IKHT0levwg3
+libraries/ghc-prim_dist-install_LIB_NAME = ghc-prim-0.4.0.0-8TmvWUcS1U1IKHT0levwg3
+libraries/ghc-prim_dist-install_MODULES = GHC.CString GHC.Classes GHC.Debug GHC.IntWord64 GHC.Magic GHC.PrimopWrappers GHC.Tuple GHC.Types GHC.Prim
+libraries/ghc-prim_dist-install_HIDDEN_MODULES = 
+libraries/ghc-prim_dist-install_SYNOPSIS =GHC primitives
+libraries/ghc-prim_dist-install_HS_SRC_DIRS = .
+libraries/ghc-prim_dist-install_DEPS = rts-1.0
+libraries/ghc-prim_dist-install_DEP_KEYS = rts
+libraries/ghc-prim_dist-install_DEP_NAMES = rts
+libraries/ghc-prim_dist-install_TRANSITIVE_DEPS = rts-1.0
+libraries/ghc-prim_dist-install_TRANSITIVE_DEP_KEYS = rts
+libraries/ghc-prim_dist-install_TRANSITIVE_DEP_NAMES = rts
+libraries/ghc-prim_dist-install_INCLUDE_DIRS = 
+libraries/ghc-prim_dist-install_INCLUDES = 
+libraries/ghc-prim_dist-install_INSTALL_INCLUDES = 
+libraries/ghc-prim_dist-install_EXTRA_LIBRARIES = 
+libraries/ghc-prim_dist-install_EXTRA_LIBDIRS = 
+libraries/ghc-prim_dist-install_C_SRCS  = cbits/atomic.c cbits/bswap.c cbits/clz.c cbits/ctz.c cbits/debug.c cbits/longlong.c cbits/popcnt.c cbits/word2float.c
+libraries/ghc-prim_dist-install_CMM_SRCS  := $(addprefix cbits/,$(notdir $(wildcard libraries/ghc-prim/cbits/*.cmm)))
+libraries/ghc-prim_dist-install_DATA_FILES = 
+libraries/ghc-prim_dist-install_HC_OPTS = -this-package-key ghc-prim -XHaskell2010
+libraries/ghc-prim_dist-install_CC_OPTS = 
+libraries/ghc-prim_dist-install_CPP_OPTS = 
+libraries/ghc-prim_dist-install_LD_OPTS = 
+libraries/ghc-prim_dist-install_DEP_INCLUDE_DIRS_SINGLE_QUOTED = '/Users/mark/Projects/ghc-7.10.2/rts/dist/build' '/Users/mark/Projects/ghc-7.10.2/includes' '/Users/mark/Projects/ghc-7.10.2/includes/dist-derivedconstants/header'
+libraries/ghc-prim_dist-install_DEP_CC_OPTS = 
+libraries/ghc-prim_dist-install_DEP_LIB_DIRS_SINGLE_QUOTED = '/Users/mark/Projects/ghc-7.10.2/rts/dist/build'
+libraries/ghc-prim_dist-install_DEP_LIB_DIRS_SEARCHPATH = /Users/mark/Projects/ghc-7.10.2/rts/dist/build
+libraries/ghc-prim_dist-install_DEP_LIB_REL_DIRS = rts/dist/build
+libraries/ghc-prim_dist-install_DEP_LIB_REL_DIRS_SEARCHPATH = rts/dist/build
+libraries/ghc-prim_dist-install_DEP_EXTRA_LIBS = m dl
+libraries/ghc-prim_dist-install_DEP_LD_OPTS = 
+libraries/ghc-prim_dist-install_BUILD_GHCI_LIB = NO
+
+$(eval $(libraries/ghc-prim_PACKAGE_MAGIC))

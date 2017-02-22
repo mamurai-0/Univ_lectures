@@ -1,0 +1,36 @@
+libraries/transformers_dist-boot_VERSION = 0.4.2.0
+libraries/transformers_dist-boot_PACKAGE_KEY = trans_3eG64VdP2vzGjP6wJiCp5X
+libraries/transformers_dist-boot_LIB_NAME = transformers-0.4.2.0-3eG64VdP2vzGjP6wJiCp5X
+libraries/transformers_dist-boot_MODULES = Control.Applicative.Backwards Control.Applicative.Lift Control.Monad.IO.Class Control.Monad.Signatures Control.Monad.Trans.Class Control.Monad.Trans.Cont Control.Monad.Trans.Except Control.Monad.Trans.Error Control.Monad.Trans.Identity Control.Monad.Trans.List Control.Monad.Trans.Maybe Control.Monad.Trans.Reader Control.Monad.Trans.RWS Control.Monad.Trans.RWS.Lazy Control.Monad.Trans.RWS.Strict Control.Monad.Trans.State Control.Monad.Trans.State.Lazy Control.Monad.Trans.State.Strict Control.Monad.Trans.Writer Control.Monad.Trans.Writer.Lazy Control.Monad.Trans.Writer.Strict Data.Functor.Classes Data.Functor.Compose Data.Functor.Constant Data.Functor.Product Data.Functor.Reverse Data.Functor.Sum
+libraries/transformers_dist-boot_HIDDEN_MODULES = 
+libraries/transformers_dist-boot_SYNOPSIS =Concrete functor and monad transformers
+libraries/transformers_dist-boot_HS_SRC_DIRS = .
+libraries/transformers_dist-boot_DEPS = base-4.8.1.0
+libraries/transformers_dist-boot_DEP_KEYS = base_GDytRqRVSUX7zckgKqJjgw
+libraries/transformers_dist-boot_DEP_NAMES = base
+libraries/transformers_dist-boot_TRANSITIVE_DEPS = base-4.8.1.0 integer-gmp-1.0.0.0 ghc-prim-0.4.0.0 rts-1.0
+libraries/transformers_dist-boot_TRANSITIVE_DEP_KEYS = base_GDytRqRVSUX7zckgKqJjgw integ_2aU3IZNMF9a7mQ0OzsZ0dS ghcpr_8TmvWUcS1U1IKHT0levwg3 rts
+libraries/transformers_dist-boot_TRANSITIVE_DEP_NAMES = base integer-gmp ghc-prim rts
+libraries/transformers_dist-boot_INCLUDE_DIRS = 
+libraries/transformers_dist-boot_INCLUDES = 
+libraries/transformers_dist-boot_INSTALL_INCLUDES = 
+libraries/transformers_dist-boot_EXTRA_LIBRARIES = 
+libraries/transformers_dist-boot_EXTRA_LIBDIRS = 
+libraries/transformers_dist-boot_C_SRCS  = 
+libraries/transformers_dist-boot_CMM_SRCS  := $(addprefix cbits/,$(notdir $(wildcard libraries/transformers/cbits/*.cmm)))
+libraries/transformers_dist-boot_DATA_FILES = 
+libraries/transformers_dist-boot_HC_OPTS = -XHaskell98
+libraries/transformers_dist-boot_CC_OPTS = 
+libraries/transformers_dist-boot_CPP_OPTS = 
+libraries/transformers_dist-boot_LD_OPTS = 
+libraries/transformers_dist-boot_DEP_INCLUDE_DIRS_SINGLE_QUOTED = '/Library/Frameworks/GHC.framework/Versions/7.10.1.20150612-x86_64/usr/lib/ghc-7.10.1.20150612/base_GDytRqRVSUX7zckgKqJjgw/include' '/Library/Frameworks/GHC.framework/Versions/7.10.1.20150612-x86_64/usr/lib/ghc-7.10.1.20150612/integ_2aU3IZNMF9a7mQ0OzsZ0dS/include' '/Library/Frameworks/GHC.framework/Versions/7.10.1.20150612-x86_64/usr/lib/ghc-7.10.1.20150612/include'
+libraries/transformers_dist-boot_DEP_CC_OPTS = 
+libraries/transformers_dist-boot_DEP_LIB_DIRS_SINGLE_QUOTED = '/Library/Frameworks/GHC.framework/Versions/7.10.1.20150612-x86_64/usr/lib/ghc-7.10.1.20150612/base_GDytRqRVSUX7zckgKqJjgw' '/Library/Frameworks/GHC.framework/Versions/7.10.1.20150612-x86_64/usr/lib/ghc-7.10.1.20150612/integ_2aU3IZNMF9a7mQ0OzsZ0dS' '/Library/Frameworks/GHC.framework/Versions/7.10.1.20150612-x86_64/usr/lib/ghc-7.10.1.20150612/ghcpr_8TmvWUcS1U1IKHT0levwg3' '/Library/Frameworks/GHC.framework/Versions/7.10.1.20150612-x86_64/usr/lib/ghc-7.10.1.20150612/rts'
+libraries/transformers_dist-boot_DEP_LIB_DIRS_SEARCHPATH = /Library/Frameworks/GHC.framework/Versions/7.10.1.20150612-x86_64/usr/lib/ghc-7.10.1.20150612/base_GDytRqRVSUX7zckgKqJjgw:/Library/Frameworks/GHC.framework/Versions/7.10.1.20150612-x86_64/usr/lib/ghc-7.10.1.20150612/integ_2aU3IZNMF9a7mQ0OzsZ0dS:/Library/Frameworks/GHC.framework/Versions/7.10.1.20150612-x86_64/usr/lib/ghc-7.10.1.20150612/ghcpr_8TmvWUcS1U1IKHT0levwg3:/Library/Frameworks/GHC.framework/Versions/7.10.1.20150612-x86_64/usr/lib/ghc-7.10.1.20150612/rts
+libraries/transformers_dist-boot_DEP_LIB_REL_DIRS = libraries/base/dist-install/build libraries/integer-gmp/dist-install/build libraries/ghc-prim/dist-install/build rts/dist/build
+libraries/transformers_dist-boot_DEP_LIB_REL_DIRS_SEARCHPATH = libraries/base/dist-install/build:libraries/integer-gmp/dist-install/build:libraries/ghc-prim/dist-install/build:rts/dist/build
+libraries/transformers_dist-boot_DEP_EXTRA_LIBS = iconv m dl
+libraries/transformers_dist-boot_DEP_LD_OPTS = 
+libraries/transformers_dist-boot_BUILD_GHCI_LIB = NO
+
+$(eval $(libraries/transformers_PACKAGE_MAGIC))

@@ -1,0 +1,36 @@
+libraries/template-haskell_dist-install_VERSION = 2.10.0.0
+libraries/template-haskell_dist-install_PACKAGE_KEY = templ_1ejK907jvoTHoZ6iZtHeyN
+libraries/template-haskell_dist-install_LIB_NAME = template-haskell-2.10.0.0-1ejK907jvoTHoZ6iZtHeyN
+libraries/template-haskell_dist-install_MODULES = Language.Haskell.TH Language.Haskell.TH.Lib Language.Haskell.TH.Ppr Language.Haskell.TH.PprLib Language.Haskell.TH.Quote Language.Haskell.TH.Syntax Language.Haskell.TH.Lib.Map
+libraries/template-haskell_dist-install_HIDDEN_MODULES = Language.Haskell.TH.Lib.Map
+libraries/template-haskell_dist-install_SYNOPSIS =Support library for Template Haskell
+libraries/template-haskell_dist-install_HS_SRC_DIRS = .
+libraries/template-haskell_dist-install_DEPS = base-4.8.1.0 pretty-1.1.2.0
+libraries/template-haskell_dist-install_DEP_KEYS = base_GDytRqRVSUX7zckgKqJjgw prett_7UQTOB05U7lIYPkFOVraeR
+libraries/template-haskell_dist-install_DEP_NAMES = base pretty
+libraries/template-haskell_dist-install_TRANSITIVE_DEPS = pretty-1.1.2.0 deepseq-1.4.1.1 array-0.5.1.0 base-4.8.1.0 integer-gmp-1.0.0.0 ghc-prim-0.4.0.0 rts-1.0
+libraries/template-haskell_dist-install_TRANSITIVE_DEP_KEYS = prett_7UQTOB05U7lIYPkFOVraeR deeps_LbCWUlehDDeLxurARKDH5o array_E0sTtauuKsGDLZoT7lTbgZ base_GDytRqRVSUX7zckgKqJjgw integ_2aU3IZNMF9a7mQ0OzsZ0dS ghcpr_8TmvWUcS1U1IKHT0levwg3 rts
+libraries/template-haskell_dist-install_TRANSITIVE_DEP_NAMES = pretty deepseq array base integer-gmp ghc-prim rts
+libraries/template-haskell_dist-install_INCLUDE_DIRS = 
+libraries/template-haskell_dist-install_INCLUDES = 
+libraries/template-haskell_dist-install_INSTALL_INCLUDES = 
+libraries/template-haskell_dist-install_EXTRA_LIBRARIES = 
+libraries/template-haskell_dist-install_EXTRA_LIBDIRS = 
+libraries/template-haskell_dist-install_C_SRCS  = 
+libraries/template-haskell_dist-install_CMM_SRCS  := $(addprefix cbits/,$(notdir $(wildcard libraries/template-haskell/cbits/*.cmm)))
+libraries/template-haskell_dist-install_DATA_FILES = 
+libraries/template-haskell_dist-install_HC_OPTS = -Wall -this-package-key template-haskell -XHaskell2010
+libraries/template-haskell_dist-install_CC_OPTS = 
+libraries/template-haskell_dist-install_CPP_OPTS = 
+libraries/template-haskell_dist-install_LD_OPTS = 
+libraries/template-haskell_dist-install_DEP_INCLUDE_DIRS_SINGLE_QUOTED = '/Users/mark/Projects/ghc-7.10.2/libraries/base/include' '/Users/mark/Projects/ghc-7.10.2/libraries/integer-gmp2/include' '/Users/mark/Projects/ghc-7.10.2/rts/dist/build' '/Users/mark/Projects/ghc-7.10.2/includes' '/Users/mark/Projects/ghc-7.10.2/includes/dist-derivedconstants/header'
+libraries/template-haskell_dist-install_DEP_CC_OPTS = 
+libraries/template-haskell_dist-install_DEP_LIB_DIRS_SINGLE_QUOTED = '/Users/mark/Projects/ghc-7.10.2/libraries/pretty/dist-install/build' '/Users/mark/Projects/ghc-7.10.2/libraries/deepseq/dist-install/build' '/Users/mark/Projects/ghc-7.10.2/libraries/array/dist-install/build' '/Users/mark/Projects/ghc-7.10.2/libraries/base/dist-install/build' '/Users/mark/Projects/ghc-7.10.2/libraries/integer-gmp2/dist-install/build' '/Users/mark/Projects/ghc-7.10.2/libraries/ghc-prim/dist-install/build' '/Users/mark/Projects/ghc-7.10.2/rts/dist/build'
+libraries/template-haskell_dist-install_DEP_LIB_DIRS_SEARCHPATH = /Users/mark/Projects/ghc-7.10.2/libraries/pretty/dist-install/build:/Users/mark/Projects/ghc-7.10.2/libraries/deepseq/dist-install/build:/Users/mark/Projects/ghc-7.10.2/libraries/array/dist-install/build:/Users/mark/Projects/ghc-7.10.2/libraries/base/dist-install/build:/Users/mark/Projects/ghc-7.10.2/libraries/integer-gmp2/dist-install/build:/Users/mark/Projects/ghc-7.10.2/libraries/ghc-prim/dist-install/build:/Users/mark/Projects/ghc-7.10.2/rts/dist/build
+libraries/template-haskell_dist-install_DEP_LIB_REL_DIRS = libraries/pretty/dist-install/build libraries/deepseq/dist-install/build libraries/array/dist-install/build libraries/base/dist-install/build libraries/integer-gmp2/dist-install/build libraries/ghc-prim/dist-install/build rts/dist/build
+libraries/template-haskell_dist-install_DEP_LIB_REL_DIRS_SEARCHPATH = libraries/pretty/dist-install/build:libraries/deepseq/dist-install/build:libraries/array/dist-install/build:libraries/base/dist-install/build:libraries/integer-gmp2/dist-install/build:libraries/ghc-prim/dist-install/build:rts/dist/build
+libraries/template-haskell_dist-install_DEP_EXTRA_LIBS = iconv m dl
+libraries/template-haskell_dist-install_DEP_LD_OPTS = 
+libraries/template-haskell_dist-install_BUILD_GHCI_LIB = NO
+
+$(eval $(libraries/template-haskell_PACKAGE_MAGIC))

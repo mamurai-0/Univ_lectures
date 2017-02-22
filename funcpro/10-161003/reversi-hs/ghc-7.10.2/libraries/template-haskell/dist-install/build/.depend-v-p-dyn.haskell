@@ -1,0 +1,137 @@
+# DO NOT DELETE: Beginning of Haskell dependencies
+libraries/template-haskell/dist-install/build/Language/Haskell/TH/Lib/Map.dyn_o libraries/template-haskell/dist-install/build/Language/Haskell/TH/Lib/Map.p_o libraries/template-haskell/dist-install/build/Language/Haskell/TH/Lib/Map.o : libraries/template-haskell/Language/Haskell/TH/Lib/Map.hs
+$(eval $(call hi-rule,libraries/template-haskell/dist-install/build/Language/Haskell/TH/Lib/Map.dyn_hi libraries/template-haskell/dist-install/build/Language/Haskell/TH/Lib/Map.p_hi libraries/template-haskell/dist-install/build/Language/Haskell/TH/Lib/Map.hi  : %hi: %o  libraries/template-haskell/Language/Haskell/TH/Lib/Map.hs))
+libraries/template-haskell/dist-install/build/Language/Haskell/TH/Lib/Map.dyn_o : libraries/base/dist-install/build/Prelude.dyn_hi
+libraries/template-haskell/dist-install/build/Language/Haskell/TH/Lib/Map.p_o : libraries/base/dist-install/build/Prelude.p_hi
+libraries/template-haskell/dist-install/build/Language/Haskell/TH/Lib/Map.o : libraries/base/dist-install/build/Prelude.hi
+libraries/template-haskell/dist-install/build/Language/Haskell/TH/Syntax.dyn_o libraries/template-haskell/dist-install/build/Language/Haskell/TH/Syntax.p_o libraries/template-haskell/dist-install/build/Language/Haskell/TH/Syntax.o : libraries/template-haskell/Language/Haskell/TH/Syntax.hs
+$(eval $(call hi-rule,libraries/template-haskell/dist-install/build/Language/Haskell/TH/Syntax.dyn_hi libraries/template-haskell/dist-install/build/Language/Haskell/TH/Syntax.p_hi libraries/template-haskell/dist-install/build/Language/Haskell/TH/Syntax.hi  : %hi: %o  libraries/template-haskell/Language/Haskell/TH/Syntax.hs))
+libraries/template-haskell/dist-install/build/Language/Haskell/TH/Syntax.dyn_o : libraries/base/dist-install/build/Prelude.dyn_hi
+libraries/template-haskell/dist-install/build/Language/Haskell/TH/Syntax.p_o : libraries/base/dist-install/build/Prelude.p_hi
+libraries/template-haskell/dist-install/build/Language/Haskell/TH/Syntax.o : libraries/base/dist-install/build/Prelude.hi
+libraries/template-haskell/dist-install/build/Language/Haskell/TH/Syntax.dyn_o : libraries/base/dist-install/build/GHC/Generics.dyn_hi
+libraries/template-haskell/dist-install/build/Language/Haskell/TH/Syntax.p_o : libraries/base/dist-install/build/GHC/Generics.p_hi
+libraries/template-haskell/dist-install/build/Language/Haskell/TH/Syntax.o : libraries/base/dist-install/build/GHC/Generics.hi
+libraries/template-haskell/dist-install/build/Language/Haskell/TH/Syntax.dyn_o : libraries/base/dist-install/build/Numeric/Natural.dyn_hi
+libraries/template-haskell/dist-install/build/Language/Haskell/TH/Syntax.p_o : libraries/base/dist-install/build/Numeric/Natural.p_hi
+libraries/template-haskell/dist-install/build/Language/Haskell/TH/Syntax.o : libraries/base/dist-install/build/Numeric/Natural.hi
+libraries/template-haskell/dist-install/build/Language/Haskell/TH/Syntax.dyn_o : libraries/base/dist-install/build/Data/Ratio.dyn_hi
+libraries/template-haskell/dist-install/build/Language/Haskell/TH/Syntax.p_o : libraries/base/dist-install/build/Data/Ratio.p_hi
+libraries/template-haskell/dist-install/build/Language/Haskell/TH/Syntax.o : libraries/base/dist-install/build/Data/Ratio.hi
+libraries/template-haskell/dist-install/build/Language/Haskell/TH/Syntax.dyn_o : libraries/base/dist-install/build/Data/Word.dyn_hi
+libraries/template-haskell/dist-install/build/Language/Haskell/TH/Syntax.p_o : libraries/base/dist-install/build/Data/Word.p_hi
+libraries/template-haskell/dist-install/build/Language/Haskell/TH/Syntax.o : libraries/base/dist-install/build/Data/Word.hi
+libraries/template-haskell/dist-install/build/Language/Haskell/TH/Syntax.dyn_o : libraries/base/dist-install/build/Data/Int.dyn_hi
+libraries/template-haskell/dist-install/build/Language/Haskell/TH/Syntax.p_o : libraries/base/dist-install/build/Data/Int.p_hi
+libraries/template-haskell/dist-install/build/Language/Haskell/TH/Syntax.o : libraries/base/dist-install/build/Data/Int.hi
+libraries/template-haskell/dist-install/build/Language/Haskell/TH/Syntax.dyn_o : libraries/base/dist-install/build/Data/Char.dyn_hi
+libraries/template-haskell/dist-install/build/Language/Haskell/TH/Syntax.p_o : libraries/base/dist-install/build/Data/Char.p_hi
+libraries/template-haskell/dist-install/build/Language/Haskell/TH/Syntax.o : libraries/base/dist-install/build/Data/Char.hi
+libraries/template-haskell/dist-install/build/Language/Haskell/TH/Syntax.dyn_o : libraries/base/dist-install/build/System/IO.dyn_hi
+libraries/template-haskell/dist-install/build/Language/Haskell/TH/Syntax.p_o : libraries/base/dist-install/build/System/IO.p_hi
+libraries/template-haskell/dist-install/build/Language/Haskell/TH/Syntax.o : libraries/base/dist-install/build/System/IO.hi
+libraries/template-haskell/dist-install/build/Language/Haskell/TH/Syntax.dyn_o : libraries/base/dist-install/build/Control/Monad.dyn_hi
+libraries/template-haskell/dist-install/build/Language/Haskell/TH/Syntax.p_o : libraries/base/dist-install/build/Control/Monad.p_hi
+libraries/template-haskell/dist-install/build/Language/Haskell/TH/Syntax.o : libraries/base/dist-install/build/Control/Monad.hi
+libraries/template-haskell/dist-install/build/Language/Haskell/TH/Syntax.dyn_o : libraries/base/dist-install/build/System/IO/Unsafe.dyn_hi
+libraries/template-haskell/dist-install/build/Language/Haskell/TH/Syntax.p_o : libraries/base/dist-install/build/System/IO/Unsafe.p_hi
+libraries/template-haskell/dist-install/build/Language/Haskell/TH/Syntax.o : libraries/base/dist-install/build/System/IO/Unsafe.hi
+libraries/template-haskell/dist-install/build/Language/Haskell/TH/Syntax.dyn_o : libraries/base/dist-install/build/Data/IORef.dyn_hi
+libraries/template-haskell/dist-install/build/Language/Haskell/TH/Syntax.p_o : libraries/base/dist-install/build/Data/IORef.p_hi
+libraries/template-haskell/dist-install/build/Language/Haskell/TH/Syntax.o : libraries/base/dist-install/build/Data/IORef.hi
+libraries/template-haskell/dist-install/build/Language/Haskell/TH/Syntax.dyn_o : libraries/base/dist-install/build/Data/Data.dyn_hi
+libraries/template-haskell/dist-install/build/Language/Haskell/TH/Syntax.p_o : libraries/base/dist-install/build/Data/Data.p_hi
+libraries/template-haskell/dist-install/build/Language/Haskell/TH/Syntax.o : libraries/base/dist-install/build/Data/Data.hi
+libraries/template-haskell/dist-install/build/Language/Haskell/TH/Lib.dyn_o libraries/template-haskell/dist-install/build/Language/Haskell/TH/Lib.p_o libraries/template-haskell/dist-install/build/Language/Haskell/TH/Lib.o : libraries/template-haskell/Language/Haskell/TH/Lib.hs
+$(eval $(call hi-rule,libraries/template-haskell/dist-install/build/Language/Haskell/TH/Lib.dyn_hi libraries/template-haskell/dist-install/build/Language/Haskell/TH/Lib.p_hi libraries/template-haskell/dist-install/build/Language/Haskell/TH/Lib.hi  : %hi: %o  libraries/template-haskell/Language/Haskell/TH/Lib.hs))
+libraries/template-haskell/dist-install/build/Language/Haskell/TH/Lib.dyn_o : libraries/base/dist-install/build/Prelude.dyn_hi
+libraries/template-haskell/dist-install/build/Language/Haskell/TH/Lib.p_o : libraries/base/dist-install/build/Prelude.p_hi
+libraries/template-haskell/dist-install/build/Language/Haskell/TH/Lib.o : libraries/base/dist-install/build/Prelude.hi
+libraries/template-haskell/dist-install/build/Language/Haskell/TH/Lib.dyn_o : libraries/base/dist-install/build/Data/Word.dyn_hi
+libraries/template-haskell/dist-install/build/Language/Haskell/TH/Lib.p_o : libraries/base/dist-install/build/Data/Word.p_hi
+libraries/template-haskell/dist-install/build/Language/Haskell/TH/Lib.o : libraries/base/dist-install/build/Data/Word.hi
+libraries/template-haskell/dist-install/build/Language/Haskell/TH/Lib.dyn_o : libraries/base/dist-install/build/Control/Monad.dyn_hi
+libraries/template-haskell/dist-install/build/Language/Haskell/TH/Lib.p_o : libraries/base/dist-install/build/Control/Monad.p_hi
+libraries/template-haskell/dist-install/build/Language/Haskell/TH/Lib.o : libraries/base/dist-install/build/Control/Monad.hi
+libraries/template-haskell/dist-install/build/Language/Haskell/TH/Lib.dyn_o : libraries/template-haskell/dist-install/build/Language/Haskell/TH/Syntax.dyn_hi
+libraries/template-haskell/dist-install/build/Language/Haskell/TH/Lib.p_o : libraries/template-haskell/dist-install/build/Language/Haskell/TH/Syntax.p_hi
+libraries/template-haskell/dist-install/build/Language/Haskell/TH/Lib.o : libraries/template-haskell/dist-install/build/Language/Haskell/TH/Syntax.hi
+libraries/template-haskell/dist-install/build/Language/Haskell/TH/Lib.dyn_o : libraries/template-haskell/dist-install/build/Language/Haskell/TH/Syntax.dyn_hi
+libraries/template-haskell/dist-install/build/Language/Haskell/TH/Lib.p_o : libraries/template-haskell/dist-install/build/Language/Haskell/TH/Syntax.p_hi
+libraries/template-haskell/dist-install/build/Language/Haskell/TH/Lib.o : libraries/template-haskell/dist-install/build/Language/Haskell/TH/Syntax.hi
+libraries/template-haskell/dist-install/build/Language/Haskell/TH/PprLib.dyn_o libraries/template-haskell/dist-install/build/Language/Haskell/TH/PprLib.p_o libraries/template-haskell/dist-install/build/Language/Haskell/TH/PprLib.o : libraries/template-haskell/Language/Haskell/TH/PprLib.hs
+$(eval $(call hi-rule,libraries/template-haskell/dist-install/build/Language/Haskell/TH/PprLib.dyn_hi libraries/template-haskell/dist-install/build/Language/Haskell/TH/PprLib.p_hi libraries/template-haskell/dist-install/build/Language/Haskell/TH/PprLib.hi  : %hi: %o  libraries/template-haskell/Language/Haskell/TH/PprLib.hs))
+libraries/template-haskell/dist-install/build/Language/Haskell/TH/PprLib.dyn_o : libraries/base/dist-install/build/Prelude.dyn_hi
+libraries/template-haskell/dist-install/build/Language/Haskell/TH/PprLib.p_o : libraries/base/dist-install/build/Prelude.p_hi
+libraries/template-haskell/dist-install/build/Language/Haskell/TH/PprLib.o : libraries/base/dist-install/build/Prelude.hi
+libraries/template-haskell/dist-install/build/Language/Haskell/TH/PprLib.dyn_o : libraries/template-haskell/dist-install/build/Language/Haskell/TH/Lib/Map.dyn_hi
+libraries/template-haskell/dist-install/build/Language/Haskell/TH/PprLib.p_o : libraries/template-haskell/dist-install/build/Language/Haskell/TH/Lib/Map.p_hi
+libraries/template-haskell/dist-install/build/Language/Haskell/TH/PprLib.o : libraries/template-haskell/dist-install/build/Language/Haskell/TH/Lib/Map.hi
+libraries/template-haskell/dist-install/build/Language/Haskell/TH/PprLib.dyn_o : libraries/template-haskell/dist-install/build/Language/Haskell/TH/Lib/Map.dyn_hi
+libraries/template-haskell/dist-install/build/Language/Haskell/TH/PprLib.p_o : libraries/template-haskell/dist-install/build/Language/Haskell/TH/Lib/Map.p_hi
+libraries/template-haskell/dist-install/build/Language/Haskell/TH/PprLib.o : libraries/template-haskell/dist-install/build/Language/Haskell/TH/Lib/Map.hi
+libraries/template-haskell/dist-install/build/Language/Haskell/TH/PprLib.dyn_o : libraries/base/dist-install/build/Control/Monad.dyn_hi
+libraries/template-haskell/dist-install/build/Language/Haskell/TH/PprLib.p_o : libraries/base/dist-install/build/Control/Monad.p_hi
+libraries/template-haskell/dist-install/build/Language/Haskell/TH/PprLib.o : libraries/base/dist-install/build/Control/Monad.hi
+libraries/template-haskell/dist-install/build/Language/Haskell/TH/PprLib.dyn_o : libraries/pretty/dist-install/build/Text/PrettyPrint.dyn_hi
+libraries/template-haskell/dist-install/build/Language/Haskell/TH/PprLib.p_o : libraries/pretty/dist-install/build/Text/PrettyPrint.p_hi
+libraries/template-haskell/dist-install/build/Language/Haskell/TH/PprLib.o : libraries/pretty/dist-install/build/Text/PrettyPrint.hi
+libraries/template-haskell/dist-install/build/Language/Haskell/TH/PprLib.dyn_o : libraries/template-haskell/dist-install/build/Language/Haskell/TH/Syntax.dyn_hi
+libraries/template-haskell/dist-install/build/Language/Haskell/TH/PprLib.p_o : libraries/template-haskell/dist-install/build/Language/Haskell/TH/Syntax.p_hi
+libraries/template-haskell/dist-install/build/Language/Haskell/TH/PprLib.o : libraries/template-haskell/dist-install/build/Language/Haskell/TH/Syntax.hi
+libraries/template-haskell/dist-install/build/Language/Haskell/TH/Ppr.dyn_o libraries/template-haskell/dist-install/build/Language/Haskell/TH/Ppr.p_o libraries/template-haskell/dist-install/build/Language/Haskell/TH/Ppr.o : libraries/template-haskell/Language/Haskell/TH/Ppr.hs
+$(eval $(call hi-rule,libraries/template-haskell/dist-install/build/Language/Haskell/TH/Ppr.dyn_hi libraries/template-haskell/dist-install/build/Language/Haskell/TH/Ppr.p_hi libraries/template-haskell/dist-install/build/Language/Haskell/TH/Ppr.hi  : %hi: %o  libraries/template-haskell/Language/Haskell/TH/Ppr.hs))
+libraries/template-haskell/dist-install/build/Language/Haskell/TH/Ppr.dyn_o : libraries/base/dist-install/build/Prelude.dyn_hi
+libraries/template-haskell/dist-install/build/Language/Haskell/TH/Ppr.p_o : libraries/base/dist-install/build/Prelude.p_hi
+libraries/template-haskell/dist-install/build/Language/Haskell/TH/Ppr.o : libraries/base/dist-install/build/Prelude.hi
+libraries/template-haskell/dist-install/build/Language/Haskell/TH/Ppr.dyn_o : libraries/base/dist-install/build/Data/Ratio.dyn_hi
+libraries/template-haskell/dist-install/build/Language/Haskell/TH/Ppr.p_o : libraries/base/dist-install/build/Data/Ratio.p_hi
+libraries/template-haskell/dist-install/build/Language/Haskell/TH/Ppr.o : libraries/base/dist-install/build/Data/Ratio.hi
+libraries/template-haskell/dist-install/build/Language/Haskell/TH/Ppr.dyn_o : libraries/base/dist-install/build/GHC/Show.dyn_hi
+libraries/template-haskell/dist-install/build/Language/Haskell/TH/Ppr.p_o : libraries/base/dist-install/build/GHC/Show.p_hi
+libraries/template-haskell/dist-install/build/Language/Haskell/TH/Ppr.o : libraries/base/dist-install/build/GHC/Show.hi
+libraries/template-haskell/dist-install/build/Language/Haskell/TH/Ppr.dyn_o : libraries/base/dist-install/build/Data/Char.dyn_hi
+libraries/template-haskell/dist-install/build/Language/Haskell/TH/Ppr.p_o : libraries/base/dist-install/build/Data/Char.p_hi
+libraries/template-haskell/dist-install/build/Language/Haskell/TH/Ppr.o : libraries/base/dist-install/build/Data/Char.hi
+libraries/template-haskell/dist-install/build/Language/Haskell/TH/Ppr.dyn_o : libraries/base/dist-install/build/Data/Word.dyn_hi
+libraries/template-haskell/dist-install/build/Language/Haskell/TH/Ppr.p_o : libraries/base/dist-install/build/Data/Word.p_hi
+libraries/template-haskell/dist-install/build/Language/Haskell/TH/Ppr.o : libraries/base/dist-install/build/Data/Word.hi
+libraries/template-haskell/dist-install/build/Language/Haskell/TH/Ppr.dyn_o : libraries/template-haskell/dist-install/build/Language/Haskell/TH/Syntax.dyn_hi
+libraries/template-haskell/dist-install/build/Language/Haskell/TH/Ppr.p_o : libraries/template-haskell/dist-install/build/Language/Haskell/TH/Syntax.p_hi
+libraries/template-haskell/dist-install/build/Language/Haskell/TH/Ppr.o : libraries/template-haskell/dist-install/build/Language/Haskell/TH/Syntax.hi
+libraries/template-haskell/dist-install/build/Language/Haskell/TH/Ppr.dyn_o : libraries/template-haskell/dist-install/build/Language/Haskell/TH/PprLib.dyn_hi
+libraries/template-haskell/dist-install/build/Language/Haskell/TH/Ppr.p_o : libraries/template-haskell/dist-install/build/Language/Haskell/TH/PprLib.p_hi
+libraries/template-haskell/dist-install/build/Language/Haskell/TH/Ppr.o : libraries/template-haskell/dist-install/build/Language/Haskell/TH/PprLib.hi
+libraries/template-haskell/dist-install/build/Language/Haskell/TH/Ppr.dyn_o : libraries/pretty/dist-install/build/Text/PrettyPrint.dyn_hi
+libraries/template-haskell/dist-install/build/Language/Haskell/TH/Ppr.p_o : libraries/pretty/dist-install/build/Text/PrettyPrint.p_hi
+libraries/template-haskell/dist-install/build/Language/Haskell/TH/Ppr.o : libraries/pretty/dist-install/build/Text/PrettyPrint.hi
+libraries/template-haskell/dist-install/build/Language/Haskell/TH/Quote.dyn_o libraries/template-haskell/dist-install/build/Language/Haskell/TH/Quote.p_o libraries/template-haskell/dist-install/build/Language/Haskell/TH/Quote.o : libraries/template-haskell/Language/Haskell/TH/Quote.hs
+$(eval $(call hi-rule,libraries/template-haskell/dist-install/build/Language/Haskell/TH/Quote.dyn_hi libraries/template-haskell/dist-install/build/Language/Haskell/TH/Quote.p_hi libraries/template-haskell/dist-install/build/Language/Haskell/TH/Quote.hi  : %hi: %o  libraries/template-haskell/Language/Haskell/TH/Quote.hs))
+libraries/template-haskell/dist-install/build/Language/Haskell/TH/Quote.dyn_o : libraries/base/dist-install/build/Prelude.dyn_hi
+libraries/template-haskell/dist-install/build/Language/Haskell/TH/Quote.p_o : libraries/base/dist-install/build/Prelude.p_hi
+libraries/template-haskell/dist-install/build/Language/Haskell/TH/Quote.o : libraries/base/dist-install/build/Prelude.hi
+libraries/template-haskell/dist-install/build/Language/Haskell/TH/Quote.dyn_o : libraries/template-haskell/dist-install/build/Language/Haskell/TH/Syntax.dyn_hi
+libraries/template-haskell/dist-install/build/Language/Haskell/TH/Quote.p_o : libraries/template-haskell/dist-install/build/Language/Haskell/TH/Syntax.p_hi
+libraries/template-haskell/dist-install/build/Language/Haskell/TH/Quote.o : libraries/template-haskell/dist-install/build/Language/Haskell/TH/Syntax.hi
+libraries/template-haskell/dist-install/build/Language/Haskell/TH/Quote.dyn_o : libraries/template-haskell/dist-install/build/Language/Haskell/TH/Lib.dyn_hi
+libraries/template-haskell/dist-install/build/Language/Haskell/TH/Quote.p_o : libraries/template-haskell/dist-install/build/Language/Haskell/TH/Lib.p_hi
+libraries/template-haskell/dist-install/build/Language/Haskell/TH/Quote.o : libraries/template-haskell/dist-install/build/Language/Haskell/TH/Lib.hi
+libraries/template-haskell/dist-install/build/Language/Haskell/TH/Quote.dyn_o : libraries/base/dist-install/build/Data/Data.dyn_hi
+libraries/template-haskell/dist-install/build/Language/Haskell/TH/Quote.p_o : libraries/base/dist-install/build/Data/Data.p_hi
+libraries/template-haskell/dist-install/build/Language/Haskell/TH/Quote.o : libraries/base/dist-install/build/Data/Data.hi
+libraries/template-haskell/dist-install/build/Language/Haskell/TH.dyn_o libraries/template-haskell/dist-install/build/Language/Haskell/TH.p_o libraries/template-haskell/dist-install/build/Language/Haskell/TH.o : libraries/template-haskell/Language/Haskell/TH.hs
+$(eval $(call hi-rule,libraries/template-haskell/dist-install/build/Language/Haskell/TH.dyn_hi libraries/template-haskell/dist-install/build/Language/Haskell/TH.p_hi libraries/template-haskell/dist-install/build/Language/Haskell/TH.hi  : %hi: %o  libraries/template-haskell/Language/Haskell/TH.hs))
+libraries/template-haskell/dist-install/build/Language/Haskell/TH.dyn_o : libraries/base/dist-install/build/Prelude.dyn_hi
+libraries/template-haskell/dist-install/build/Language/Haskell/TH.p_o : libraries/base/dist-install/build/Prelude.p_hi
+libraries/template-haskell/dist-install/build/Language/Haskell/TH.o : libraries/base/dist-install/build/Prelude.hi
+libraries/template-haskell/dist-install/build/Language/Haskell/TH.dyn_o : libraries/template-haskell/dist-install/build/Language/Haskell/TH/Ppr.dyn_hi
+libraries/template-haskell/dist-install/build/Language/Haskell/TH.p_o : libraries/template-haskell/dist-install/build/Language/Haskell/TH/Ppr.p_hi
+libraries/template-haskell/dist-install/build/Language/Haskell/TH.o : libraries/template-haskell/dist-install/build/Language/Haskell/TH/Ppr.hi
+libraries/template-haskell/dist-install/build/Language/Haskell/TH.dyn_o : libraries/template-haskell/dist-install/build/Language/Haskell/TH/Lib.dyn_hi
+libraries/template-haskell/dist-install/build/Language/Haskell/TH.p_o : libraries/template-haskell/dist-install/build/Language/Haskell/TH/Lib.p_hi
+libraries/template-haskell/dist-install/build/Language/Haskell/TH.o : libraries/template-haskell/dist-install/build/Language/Haskell/TH/Lib.hi
+libraries/template-haskell/dist-install/build/Language/Haskell/TH.dyn_o : libraries/template-haskell/dist-install/build/Language/Haskell/TH/Syntax.dyn_hi
+libraries/template-haskell/dist-install/build/Language/Haskell/TH.p_o : libraries/template-haskell/dist-install/build/Language/Haskell/TH/Syntax.p_hi
+libraries/template-haskell/dist-install/build/Language/Haskell/TH.o : libraries/template-haskell/dist-install/build/Language/Haskell/TH/Syntax.hi
+# DO NOT DELETE: End of Haskell dependencies
+libraries/template-haskell_dist-install_depfile_haskell_EXISTS = YES

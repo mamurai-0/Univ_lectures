@@ -1,0 +1,36 @@
+libraries/time_dist-install_VERSION = 1.5.0.1
+libraries/time_dist-install_PACKAGE_KEY = time_AXTdBF9VRQoBOqJT6qtmVH
+libraries/time_dist-install_LIB_NAME = time-1.5.0.1-AXTdBF9VRQoBOqJT6qtmVH
+libraries/time_dist-install_MODULES = Data.Time.Calendar Data.Time.Calendar.MonthDay Data.Time.Calendar.OrdinalDate Data.Time.Calendar.WeekDate Data.Time.Calendar.Julian Data.Time.Calendar.Easter Data.Time.Clock Data.Time.Clock.POSIX Data.Time.Clock.TAI Data.Time.LocalTime Data.Time.Format Data.Time Data.Time.Calendar.Private Data.Time.Calendar.Days Data.Time.Calendar.Gregorian Data.Time.Calendar.JulianYearDay Data.Time.Clock.Scale Data.Time.Clock.UTC Data.Time.Clock.CTimeval Data.Time.Clock.UTCDiff Data.Time.LocalTime.TimeZone Data.Time.LocalTime.TimeOfDay Data.Time.LocalTime.LocalTime Data.Time.Format.Parse Data.Time.Format.Locale
+libraries/time_dist-install_HIDDEN_MODULES = Data.Time.Calendar.Private Data.Time.Calendar.Days Data.Time.Calendar.Gregorian Data.Time.Calendar.JulianYearDay Data.Time.Clock.Scale Data.Time.Clock.UTC Data.Time.Clock.CTimeval Data.Time.Clock.UTCDiff Data.Time.LocalTime.TimeZone Data.Time.LocalTime.TimeOfDay Data.Time.LocalTime.LocalTime Data.Time.Format.Parse Data.Time.Format.Locale
+libraries/time_dist-install_SYNOPSIS =A time library
+libraries/time_dist-install_HS_SRC_DIRS = lib
+libraries/time_dist-install_DEPS = base-4.8.1.0 deepseq-1.4.1.1
+libraries/time_dist-install_DEP_KEYS = base_GDytRqRVSUX7zckgKqJjgw deeps_LbCWUlehDDeLxurARKDH5o
+libraries/time_dist-install_DEP_NAMES = base deepseq
+libraries/time_dist-install_TRANSITIVE_DEPS = deepseq-1.4.1.1 array-0.5.1.0 base-4.8.1.0 integer-gmp-1.0.0.0 ghc-prim-0.4.0.0 rts-1.0
+libraries/time_dist-install_TRANSITIVE_DEP_KEYS = deeps_LbCWUlehDDeLxurARKDH5o array_E0sTtauuKsGDLZoT7lTbgZ base_GDytRqRVSUX7zckgKqJjgw integ_2aU3IZNMF9a7mQ0OzsZ0dS ghcpr_8TmvWUcS1U1IKHT0levwg3 rts
+libraries/time_dist-install_TRANSITIVE_DEP_NAMES = deepseq array base integer-gmp ghc-prim rts
+libraries/time_dist-install_INCLUDE_DIRS = lib/include
+libraries/time_dist-install_INCLUDES = 
+libraries/time_dist-install_INSTALL_INCLUDES = HsTime.h HsTimeConfig.h
+libraries/time_dist-install_EXTRA_LIBRARIES = 
+libraries/time_dist-install_EXTRA_LIBDIRS = 
+libraries/time_dist-install_C_SRCS  = lib/cbits/HsTime.c
+libraries/time_dist-install_CMM_SRCS  := $(addprefix cbits/,$(notdir $(wildcard libraries/time/cbits/*.cmm)))
+libraries/time_dist-install_DATA_FILES = 
+libraries/time_dist-install_HC_OPTS = -Wall -XHaskell2010 -XCPP -XRank2Types -XDeriveDataTypeable -XStandaloneDeriving
+libraries/time_dist-install_CC_OPTS = 
+libraries/time_dist-install_CPP_OPTS = -DLANGUAGE_Rank2Types -DLANGUAGE_DeriveDataTypeable -DLANGUAGE_StandaloneDeriving
+libraries/time_dist-install_LD_OPTS = 
+libraries/time_dist-install_DEP_INCLUDE_DIRS_SINGLE_QUOTED = '/Users/mark/Projects/ghc-7.10.2/libraries/base/include' '/Users/mark/Projects/ghc-7.10.2/libraries/integer-gmp2/include' '/Users/mark/Projects/ghc-7.10.2/rts/dist/build' '/Users/mark/Projects/ghc-7.10.2/includes' '/Users/mark/Projects/ghc-7.10.2/includes/dist-derivedconstants/header'
+libraries/time_dist-install_DEP_CC_OPTS = 
+libraries/time_dist-install_DEP_LIB_DIRS_SINGLE_QUOTED = '/Users/mark/Projects/ghc-7.10.2/libraries/deepseq/dist-install/build' '/Users/mark/Projects/ghc-7.10.2/libraries/array/dist-install/build' '/Users/mark/Projects/ghc-7.10.2/libraries/base/dist-install/build' '/Users/mark/Projects/ghc-7.10.2/libraries/integer-gmp2/dist-install/build' '/Users/mark/Projects/ghc-7.10.2/libraries/ghc-prim/dist-install/build' '/Users/mark/Projects/ghc-7.10.2/rts/dist/build'
+libraries/time_dist-install_DEP_LIB_DIRS_SEARCHPATH = /Users/mark/Projects/ghc-7.10.2/libraries/deepseq/dist-install/build:/Users/mark/Projects/ghc-7.10.2/libraries/array/dist-install/build:/Users/mark/Projects/ghc-7.10.2/libraries/base/dist-install/build:/Users/mark/Projects/ghc-7.10.2/libraries/integer-gmp2/dist-install/build:/Users/mark/Projects/ghc-7.10.2/libraries/ghc-prim/dist-install/build:/Users/mark/Projects/ghc-7.10.2/rts/dist/build
+libraries/time_dist-install_DEP_LIB_REL_DIRS = libraries/deepseq/dist-install/build libraries/array/dist-install/build libraries/base/dist-install/build libraries/integer-gmp2/dist-install/build libraries/ghc-prim/dist-install/build rts/dist/build
+libraries/time_dist-install_DEP_LIB_REL_DIRS_SEARCHPATH = libraries/deepseq/dist-install/build:libraries/array/dist-install/build:libraries/base/dist-install/build:libraries/integer-gmp2/dist-install/build:libraries/ghc-prim/dist-install/build:rts/dist/build
+libraries/time_dist-install_DEP_EXTRA_LIBS = iconv m dl
+libraries/time_dist-install_DEP_LD_OPTS = 
+libraries/time_dist-install_BUILD_GHCI_LIB = NO
+
+$(eval $(libraries/time_PACKAGE_MAGIC))

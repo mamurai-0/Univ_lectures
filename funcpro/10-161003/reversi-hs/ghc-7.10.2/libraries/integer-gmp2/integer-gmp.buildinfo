@@ -1,0 +1,5 @@
+include-dirs: 
+extra-lib-dirs: 
+extra-libraries: 
+frameworks: 
+install-includes: HsIntegerGmp.h ghc-gmp.h

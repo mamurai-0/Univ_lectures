@@ -1,0 +1,36 @@
+libraries/filepath_dist-install_VERSION = 1.4.0.0
+libraries/filepath_dist-install_PACKAGE_KEY = filep_KsGE6pHE5eZHSN90ZVax6A
+libraries/filepath_dist-install_LIB_NAME = filepath-1.4.0.0-KsGE6pHE5eZHSN90ZVax6A
+libraries/filepath_dist-install_MODULES = System.FilePath System.FilePath.Posix System.FilePath.Windows
+libraries/filepath_dist-install_HIDDEN_MODULES = 
+libraries/filepath_dist-install_SYNOPSIS =Library for manipulating FilePaths in a cross platform way.
+libraries/filepath_dist-install_HS_SRC_DIRS = .
+libraries/filepath_dist-install_DEPS = base-4.8.1.0
+libraries/filepath_dist-install_DEP_KEYS = base_GDytRqRVSUX7zckgKqJjgw
+libraries/filepath_dist-install_DEP_NAMES = base
+libraries/filepath_dist-install_TRANSITIVE_DEPS = base-4.8.1.0 integer-gmp-1.0.0.0 ghc-prim-0.4.0.0 rts-1.0
+libraries/filepath_dist-install_TRANSITIVE_DEP_KEYS = base_GDytRqRVSUX7zckgKqJjgw integ_2aU3IZNMF9a7mQ0OzsZ0dS ghcpr_8TmvWUcS1U1IKHT0levwg3 rts
+libraries/filepath_dist-install_TRANSITIVE_DEP_NAMES = base integer-gmp ghc-prim rts
+libraries/filepath_dist-install_INCLUDE_DIRS = 
+libraries/filepath_dist-install_INCLUDES = 
+libraries/filepath_dist-install_INSTALL_INCLUDES = 
+libraries/filepath_dist-install_EXTRA_LIBRARIES = 
+libraries/filepath_dist-install_EXTRA_LIBDIRS = 
+libraries/filepath_dist-install_C_SRCS  = 
+libraries/filepath_dist-install_CMM_SRCS  := $(addprefix cbits/,$(notdir $(wildcard libraries/filepath/cbits/*.cmm)))
+libraries/filepath_dist-install_DATA_FILES = 
+libraries/filepath_dist-install_HC_OPTS = -Wall -XHaskell98
+libraries/filepath_dist-install_CC_OPTS = 
+libraries/filepath_dist-install_CPP_OPTS = 
+libraries/filepath_dist-install_LD_OPTS = 
+libraries/filepath_dist-install_DEP_INCLUDE_DIRS_SINGLE_QUOTED = '/Users/mark/Projects/ghc-7.10.2/libraries/base/include' '/Users/mark/Projects/ghc-7.10.2/libraries/integer-gmp2/include' '/Users/mark/Projects/ghc-7.10.2/rts/dist/build' '/Users/mark/Projects/ghc-7.10.2/includes' '/Users/mark/Projects/ghc-7.10.2/includes/dist-derivedconstants/header'
+libraries/filepath_dist-install_DEP_CC_OPTS = 
+libraries/filepath_dist-install_DEP_LIB_DIRS_SINGLE_QUOTED = '/Users/mark/Projects/ghc-7.10.2/libraries/base/dist-install/build' '/Users/mark/Projects/ghc-7.10.2/libraries/integer-gmp2/dist-install/build' '/Users/mark/Projects/ghc-7.10.2/libraries/ghc-prim/dist-install/build' '/Users/mark/Projects/ghc-7.10.2/rts/dist/build'
+libraries/filepath_dist-install_DEP_LIB_DIRS_SEARCHPATH = /Users/mark/Projects/ghc-7.10.2/libraries/base/dist-install/build:/Users/mark/Projects/ghc-7.10.2/libraries/integer-gmp2/dist-install/build:/Users/mark/Projects/ghc-7.10.2/libraries/ghc-prim/dist-install/build:/Users/mark/Projects/ghc-7.10.2/rts/dist/build
+libraries/filepath_dist-install_DEP_LIB_REL_DIRS = libraries/base/dist-install/build libraries/integer-gmp2/dist-install/build libraries/ghc-prim/dist-install/build rts/dist/build
+libraries/filepath_dist-install_DEP_LIB_REL_DIRS_SEARCHPATH = libraries/base/dist-install/build:libraries/integer-gmp2/dist-install/build:libraries/ghc-prim/dist-install/build:rts/dist/build
+libraries/filepath_dist-install_DEP_EXTRA_LIBS = iconv m dl
+libraries/filepath_dist-install_DEP_LD_OPTS = 
+libraries/filepath_dist-install_BUILD_GHCI_LIB = NO
+
+$(eval $(libraries/filepath_PACKAGE_MAGIC))
